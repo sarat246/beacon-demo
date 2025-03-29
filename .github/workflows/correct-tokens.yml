@@ -31,4 +31,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Fix: Corrected design token references"
-        file_pattern: 'btokens (3).json' # Only commit the corrected token file
+        file_pattern: 'tokens/btokens.json' # Only commit the corrected token file
