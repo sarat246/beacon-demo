@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "style-dictionary build"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "style-dictionary build",
+  "convert-tokens": "node scripts/convertTokens.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@tokens-studio/sd-transforms": "^1.2.12"
-  },
   "devDependencies": {
     "style-dictionary": "^4.3.3"
   }
