@@ -1,5 +1,4 @@
 {
-  "global": {},
   "01. core/Value": {
     "colors": {
       "nutral": {
@@ -5115,7 +5114,6 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
       "01. core/Value",
       "04. theme/BallyBet",
       "04. theme/JackpotJoy",
