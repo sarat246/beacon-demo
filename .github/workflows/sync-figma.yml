@@ -1,0 +1,15 @@
+name: Sync Figma variables to tokens
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_key:
+        description: 'The file key of the Figma file to be updated'
+        required: true
+
+jobs:
+  echo-input:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show provided Figma file key
+        run: echo "Figma file key is ${{ github.event.inputs.file_key }}"
