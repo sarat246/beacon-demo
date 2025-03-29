@@ -1,0 +1,22 @@
+{
+  "device": {
+    "value": "desktop",
+    "type": "text"
+  },
+  "breakpoint": {
+    "value": 1366,
+    "type": "number"
+  },
+  "columns": {
+    "value": 12,
+    "type": "number"
+  },
+  "margin": {
+    "value": 96,
+    "type": "number"
+  },
+  "gutter": {
+    "value": 32,
+    "type": "number"
+  }
+}

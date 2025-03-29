@@ -1,9 +1,12 @@
+permissions:
+  contents: write
+
 name: Correct Design Token References
 
 on:
   push:
     paths:
-      - 'btokens (3).json' # Adjust this to your token file(s) path
+      - 'tokens/btokens.json' # Adjust this to your token file(s) path
 
 jobs:
   correct_tokens:

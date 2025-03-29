@@ -1,0 +1,22 @@
+{
+  "device": {
+    "value": "mobile",
+    "type": "text"
+  },
+  "breakpoint": {
+    "value": 375,
+    "type": "number"
+  },
+  "columns": {
+    "value": 4,
+    "type": "number"
+  },
+  "margin": {
+    "value": 16,
+    "type": "number"
+  },
+  "gutter": {
+    "value": 16,
+    "type": "number"
+  }
+}

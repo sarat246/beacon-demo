@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "Core/core",
+    "Theme/BallyBet",
+    "Theme/JackpotJoy",
+    "Theme/Botemania",
+    "Theme/DoubleBubble",
+    "Properties/properties",
+    "Breakpoints/mobile",
+    "Breakpoints/tablet",
+    "Breakpoints/desktop"
+  ]
+}
