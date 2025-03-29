@@ -1,28 +1,35 @@
+permissions:
+  contents: write
+
 name: Correct Design Token References
+
 on:
   push:
     paths:
       - 'tokens/btokens.json' # Adjust this to your token file(s) path
-  pull_request: #optional, add this if you want to validate on PRs
-    paths:
-      - 'tokens/btokens.json'
+
 jobs:
   correct_tokens:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.9' # Or a version you prefer
+
     - name: Install dependencies (if any)
       run: |
         python -m pip install --upgrade pip
         # Add any Python dependencies here if needed (e.g., requests)
+
     - name: Correct Token References
       run: |
         python scripts/correct_tokens.py # Or the name of your python script
+
     - name: Commit changes (if any)
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
