@@ -8,11 +8,11 @@ OUTPUT_FILE = "tokens/btokens.fixed.json"
 
 # Define known top-level mappings
 top_level_keys = {
-    "core": ["colorNutral", "colorAlerts", "colorBrand", "numbers"],
+    "core": ["colorNeutral", "colorAlerts", "colorBrand", "numbers", "fontFamily"],
     "properties": [
         "fontWeight", "lineHeight", "fontSize", "letterSpacing",
         "paragraphSpacing", "spacing", "borderRadius", "borderWidth",
-        "opacity", "boxShadow", "fontFamily", "padding","radius"
+        "opacity", "boxShadow", "padding","radius"
     ],
     "breakpoints": ["breakpoint", "device", "columns", "margin", "gutter"]
 }
