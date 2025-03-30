@@ -1221,7 +1221,7 @@
           }
         }
       },
-      "errors, warnings, alerts": {
+      "alerts": {
         "Error-text-dark": {
           "$type": "color",
           "$value": "{colorAlerts.negative.500}"
@@ -1496,7 +1496,7 @@
         }
       },
       "body": {
-        "body default": {
+        "default": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -1514,7 +1514,7 @@
             "$value": "{fontSize.16px}"
           }
         },
-        "body large": {
+        "large": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -1550,7 +1550,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -1586,7 +1586,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -1604,7 +1604,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body large bold": {
+        "large-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -1646,7 +1646,7 @@
         "$value": "{fontFamily.BB-Bally Thrill}"
       },
       "caption": {
-        "caption main": {
+        "main": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -1664,7 +1664,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -1682,7 +1682,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption mmall": {
+        "small": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -1700,7 +1700,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -1720,7 +1720,7 @@
         }
       },
       "alert": {
-        "alert title": {
+        "title": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -1738,7 +1738,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "alert mesage": {
+        "mesage": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -2146,7 +2146,7 @@
           }
         }
       },
-      "errors, warnings, alerts": {
+      "alerts": {
         "Error-text-dark": {
           "$type": "color",
           "$value": "{colorAlerts.negative.500}"
@@ -2421,7 +2421,7 @@
         }
       },
       "body": {
-        "body default": {
+        "default": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -2439,7 +2439,7 @@
             "$value": "{fontSize.16px}"
           }
         },
-        "body large": {
+        "large": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -2475,7 +2475,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -2511,7 +2511,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -2529,7 +2529,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body large bold": {
+        "large-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -2571,7 +2571,7 @@
         "$value": "{fontFamily.JPJ-Nunito Sans}"
       },
       "caption": {
-        "caption main": {
+        "main": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -2589,7 +2589,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -2607,7 +2607,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption mmall": {
+        "small": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -2625,7 +2625,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -2645,7 +2645,7 @@
         }
       },
       "alert": {
-        "alert title": {
+        "title": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -2663,7 +2663,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "alert mesage": {
+        "mesage": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -3071,7 +3071,7 @@
           }
         }
       },
-      "errors, warnings, alerts": {
+      "alerts": {
         "Error-text-dark": {
           "$type": "color",
           "$value": "{colorAlerts.negative.500}"
@@ -3346,7 +3346,7 @@
         }
       },
       "body": {
-        "body default": {
+        "default": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -3364,7 +3364,7 @@
             "$value": "{fontSize.16px}"
           }
         },
-        "body large": {
+        "large": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -3400,7 +3400,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -3436,7 +3436,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -3454,7 +3454,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body large bold": {
+        "large-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -3496,7 +3496,7 @@
         "$value": "{fontFamily.BTM-Kumbh Sans}"
       },
       "caption": {
-        "caption main": {
+        "main": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -3514,7 +3514,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -3532,7 +3532,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption mmall": {
+        "small": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -3550,7 +3550,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -3570,7 +3570,7 @@
         }
       },
       "alert": {
-        "alert title": {
+        "title": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -3588,7 +3588,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "alert mesage": {
+        "mesage": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -3996,7 +3996,7 @@
           }
         }
       },
-      "errors, warnings, alerts": {
+      "alerts": {
         "Error-text-dark": {
           "$type": "color",
           "$value": "{colorAlerts.negative.500}"
@@ -4271,7 +4271,7 @@
         }
       },
       "body": {
-        "body default": {
+        "default": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -4289,7 +4289,7 @@
             "$value": "{fontSize.16px}"
           }
         },
-        "body large": {
+        "large": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -4325,7 +4325,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -4361,7 +4361,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -4379,7 +4379,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "body large bold": {
+        "large-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -4421,7 +4421,7 @@
         "$value": "{fontFamily.DBB-Outfit}"
       },
       "caption": {
-        "caption main": {
+        "main": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -4439,7 +4439,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption bold": {
+        "bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -4457,7 +4457,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption mmall": {
+        "small": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
@@ -4475,7 +4475,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "caption small bold": {
+        "small-bold": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -4495,7 +4495,7 @@
         }
       },
       "alert": {
-        "alert title": {
+        "title": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Bold}"
@@ -4513,7 +4513,7 @@
             "$value": "{letterSpacing.none}"
           }
         },
-        "alert mesage": {
+        "mesage": {
           "weight": {
             "$type": "text",
             "$value": "{fontWeight.Regular}"
