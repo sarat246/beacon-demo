@@ -1,0 +1,940 @@
+$theme-ballybet-tokens: (
+  "colorstyles": (
+    "icon": (
+      "default": (
+        "icon": (
+          "secondary": (
+            "ballybet": var(--core-colorbrand-ballybet-secondary-500),
+          ),
+          "light": (
+            "ballybet": var(--core-colornutral-white-main),
+          ),
+          "primary": (
+            "ballybet": var(--core-colorbrand-ballybet-primary-500),
+          ),
+          "gray": (
+            "ballybet": var(--core-colornutral-graysoft-500),
+          ),
+          "dark": (
+            "ballybet": var(--core-colornutral-graystrong-800),
+          ),
+          "positive": (
+            "ballybet": var(--core-coloralerts-positive-500),
+          ),
+          "negative": (
+            "ballybet": var(--core-coloralerts-negative-500),
+          ),
+          "warning": (
+            "ballybet": var(--core-coloralerts-warning-500),
+          ),
+          "disabled": (
+            "ballybet": var(--core-colornutral-graystrong-50),
+          ),
+        ),
+      ),
+      "hover": (
+        "icon": (
+          "hover": (
+            "dark": (
+              "ballybet": var(--core-colornutral-graystrong-900),
+            ),
+            "gray": (
+              "ballybet": var(--core-colornutral-graystrong-600),
+            ),
+            "primary": (
+              "ballybet": var(--core-colorbrand-ballybet-primary-600),
+            ),
+            "secondary": (
+              "ballybet": var(--core-colorbrand-ballybet-secondary-600),
+            ),
+            "positive": (
+              "ballybet": var(--core-coloralerts-positive-600),
+            ),
+            "negative": (
+              "ballybet": var(--core-coloralerts-negative-600),
+            ),
+            "warning": (
+              "ballybet": var(--core-coloralerts-warning-600),
+            ),
+          ),
+        ),
+      ),
+    ),
+    "component": (
+      "text": (
+        "component": (
+          "text": (
+            "secondary": (
+              "ballybet": var(--core-colorbrand-ballybet-secondary-500),
+              "hover": (
+                "ballybet": var(--core-colorbrand-ballybet-secondary-600),
+              ),
+            ),
+            "light": (
+              "ballybet": var(--core-colornutral-white-main),
+            ),
+            "soft": (
+              "ballybet": var(--core-colornutral-graysoft-500),
+            ),
+            "primary": (
+              "ballybet": var(--core-colorbrand-ballybet-primary-500),
+              "hover": (
+                "ballybet": var(--core-colorbrand-ballybet-primary-600),
+              ),
+            ),
+            "gray": (
+              "hover": (
+                "ballybet": var(--core-colornutral-graysoft-600),
+              ),
+            ),
+            "dark": (
+              "ballybet": var(--core-colornutral-graystrong-700),
+              "hover": (
+                "ballybet": var(--core-colornutral-graystrong-800),
+              ),
+            ),
+            "disabled": (
+              "ballybet": var(--core-colornutral-graystrong-50),
+            ),
+          ),
+        ),
+      ),
+      "fill": (
+        "component": (
+          "fill": (
+            "primary": (
+              "ballybet": var(--core-colorbrand-ballybet-primary-500),
+              "soft": (
+                "ballybet": var(--core-colorbrand-ballybet-primary-50),
+              ),
+              "dark": (
+                "ballybet": var(--core-colorbrand-ballybet-primary-800),
+              ),
+            ),
+            "secondary": (
+              "soft": (
+                "ballybet": var(--core-colorbrand-ballybet-secondary-50),
+              ),
+              "dark": (
+                "ballybet": var(--core-colorbrand-ballybet-secondary-800),
+              ),
+              "ballybet": var(--core-colorbrand-ballybet-secondary-500),
+            ),
+            "light": (
+              "ballybet": var(--core-colornutral-white-main),
+            ),
+            "dark": (
+              "ballybet": var(--core-colornutral-graystrong-800),
+              "soft": (
+                "ballybet": var(--core-colornutral-graysoft-50),
+              ),
+            ),
+            "disabled": (
+              "ballybet": var(--core-colornutral-graystrong-25),
+            ),
+            "gray": (
+              "ballybet": var(--core-colornutral-graysoft-500),
+              "dark": (
+                "ballybet": var(--core-colornutral-graysoft-900),
+              ),
+              "light": (
+                "ballybet": var(--core-colornutral-graysoft-50),
+              ),
+            ),
+          ),
+        ),
+      ),
+      "border": (
+        "component": (
+          "border": (
+            "dark": (
+              "soft": (
+                "ballybet": var(--core-colornutral-graysoft-200),
+              ),
+              "ballybet": var(--core-colornutral-graystrong-800),
+            ),
+            "light": (
+              "ballybet": var(--core-colornutral-white-main),
+            ),
+            "primary": (
+              "ballybet": var(--core-colorbrand-ballybet-primary-500),
+              "soft": (
+                "ballybet": var(--core-colorbrand-ballybet-primary-100),
+              ),
+            ),
+            "secondary": (
+              "ballybet": var(--core-colorbrand-ballybet-secondary-500),
+              "soft": (
+                "ballybet": var(--core-colorbrand-ballybet-secondary-100),
+              ),
+            ),
+            "disabled": (
+              "ballybet": var(--core-colornutral-graystrong-50),
+            ),
+          ),
+        ),
+      ),
+      "hover": (
+        "component": (
+          "hover": (
+            "light": (
+              "ballybet": var(--core-colornutral-white-main),
+            ),
+            "dark": (
+              "ballybet": var(--core-colornutral-graystrong-600),
+              "soft": (
+                "ballybet": var(--core-colornutral-graysoft-100),
+              ),
+            ),
+            "gray": (
+              "ballybet": var(--core-colornutral-graysoft-50),
+            ),
+            "primary": (
+              "ballybet": var(--core-colorbrand-ballybet-primary-600),
+              "light": (
+                "ballybet": var(--core-colorbrand-ballybet-primary-400),
+              ),
+              "soft": (
+                "ballybet": var(--core-colorbrand-ballybet-primary-50),
+              ),
+            ),
+            "secondary": (
+              "ballybet": var(--core-colorbrand-ballybet-secondary-600),
+              "light": (
+                "ballybet": var(--core-colorbrand-ballybet-secondary-400),
+              ),
+              "soft": (
+                "ballybet": var(--core-colorbrand-ballybet-secondary-50),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    "typography": (
+      "heading": (
+        "ballybet": var(--core-colornutral-graystrong-900),
+        "light": (
+          "ballybet": var(--core-colornutral-white-main),
+        ),
+      ),
+      "caption": (
+        "promary": (
+          "ballybet": var(--core-colorbrand-ballybet-primary-900),
+        ),
+        "light": (
+          "ballybet": var(--core-colornutral-white-main),
+        ),
+        "soft": (
+          "ballybet": var(--core-colornutral-graysoft-500),
+        ),
+      ),
+      "body": (
+        "ballybet": var(--core-colornutral-graystrong-900),
+        "light": (
+          "ballybet": var(--core-colornutral-white-main),
+        ),
+        "soft": (
+          "ballybet": var(--core-colornutral-graysoft-500),
+        ),
+      ),
+      "headingprimary": (
+        "ballybet": var(--core-colorbrand-ballybet-primary-600),
+      ),
+    ),
+    "background": (
+      "background": (
+        "fill": (
+          "surface": (
+            "ballybet": var(--core-colornutral-graysoft-50),
+          ),
+          "elevations1": (
+            "ballybet": var(--core-colornutral-white-main),
+          ),
+          "elevation2": (
+            "ballybet": var(--core-colornutral-white-main),
+          ),
+        ),
+      ),
+    ),
+    "alerts": (
+      "error": (
+        "text": (
+          "dark": (
+            "ballybet": var(--core-coloralerts-negative-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "ballybet": var(--core-coloralerts-negative-50),
+          ),
+        ),
+      ),
+      "warning": (
+        "text": (
+          "dark": (
+            "ballybet": var(--core-coloralerts-warning-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "ballybet": var(--core-coloralerts-warning-50),
+          ),
+        ),
+      ),
+      "success": (
+        "text": (
+          "dark": (
+            "ballybet": var(--core-coloralerts-positive-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "ballybet": var(--core-coloralerts-positive-50),
+          ),
+        ),
+      ),
+      "info": (
+        "text": (
+          "dark": (
+            "ballybet": var(--core-coloralerts-info-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "ballybet": var(--core-coloralerts-info-50),
+          ),
+        ),
+      ),
+      "alert": (
+        "fill": (
+          "new": (
+            "ballybet": var(--core-colornutral-graysoft-50),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "textstyles": (
+    "headings": (
+      "h1": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-28px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-44px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-narrow),
+        ),
+      ),
+      "h2": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-24px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-narrow),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-36px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h3": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-22px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-30px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h4": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-18px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-28px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h5": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-26px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h6": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-14px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "body": (
+      "default": (
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+      ),
+      "large": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-18px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-24px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+        "bold": (
+          "weight": (
+            "ballybet": var(--properties-fontweight-bold),
+          ),
+          "font": (
+            "size": (
+              "ballybet": var(--properties-fontsize-18px),
+            ),
+          ),
+          "line": (
+            "height": (
+              "ballybet": var(--properties-lineheight-24px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "ballybet": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "body": (
+        "small": (
+          "font": (
+            "size": (
+              "ballybet": var(--properties-fontsize-14px),
+            ),
+          ),
+          "weight": (
+            "ballybet": var(--properties-fontweight-regular),
+          ),
+          "line": (
+            "height": (
+              "ballybet": var(--properties-lineheight-18px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "ballybet": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "bold": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "small": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-12px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+        "bold": (
+          "font": (
+            "size": (
+              "ballybet": var(--properties-fontsize-12px),
+            ),
+          ),
+          "weight": (
+            "ballybet": var(--properties-fontweight-bold),
+          ),
+          "line": (
+            "height": (
+              "ballybet": var(--properties-lineheight-18px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "ballybet": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "tiny": (
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-12px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "font": (
+      "family": (
+        "ballybet": var(--core-fontfamily-bb-bally-thrill),
+      ),
+    ),
+    "caption": (
+      "main": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-15px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "bold": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-15px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "small": (
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-14px),
+          ),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "smallbold": (
+        "size": (
+          "ballybet": var(--properties-fontsize-14px),
+        ),
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "alert": (
+      "title": (
+        "weight": (
+          "ballybet": var(--properties-fontweight-bold),
+        ),
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-16px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "mesage": (
+        "weight": (
+          "ballybet": var(--properties-fontweight-regular),
+        ),
+        "font": (
+          "size": (
+            "ballybet": var(--properties-fontsize-16px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "ballybet": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "ballybet": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "buttonstyles": (
+    "radius": (
+      "large": (
+        "ballybet": var(--properties-radius-smx4x),
+      ),
+      "medium": (
+        "ballybet": var(--properties-radius-smx4x),
+      ),
+      "small": (
+        "ballybet": var(--properties-radius-smx3x),
+      ),
+    ),
+    "padding": (
+      "y": (
+        "large": (
+          "ballybet": var(--properties-padding-12px),
+        ),
+        "medium": (
+          "ballybet": var(--properties-padding-10px),
+        ),
+        "small": (
+          "ballybet": var(--properties-padding-6px),
+        ),
+      ),
+      "x": (
+        "large": (
+          "ballybet": var(--properties-padding-16px),
+        ),
+        "medium": (
+          "ballybet": var(--properties-padding-14px),
+        ),
+        "small": (
+          "ballybet": var(--properties-padding-10px),
+        ),
+      ),
+    ),
+    "fontsize": (
+      "large": (
+        "ballybet": var(--properties-fontsize-14px),
+      ),
+      "medium": (
+        "ballybet": var(--properties-fontsize-13px),
+      ),
+      "small": (
+        "ballybet": var(--properties-fontsize-12px),
+      ),
+    ),
+    "fontweight": (
+      "bold": (
+        "ballybet": var(--core-font-weight-bold),
+      ),
+    ),
+    "height": (
+      "large": (
+        "ballybet": var(--core-numbers-48px),
+      ),
+      "medium": (
+        "ballybet": var(--core-numbers-40px),
+      ),
+      "small": (
+        "ballybet": var(--core-numbers-32px),
+      ),
+    ),
+  ),
+  "spacing": (
+    "space": (
+      "xs": (
+        "ballybet": 0px,
+      ),
+    ),
+  ),
+  "logos": (
+    "logo": (
+      "ballybet": BLB,
+    ),
+  ),
+  "topnav": (
+    "background": (
+      "color": (
+        "ballybet": var(--core-colornutral-white-main),
+      ),
+    ),
+    "icon": (
+      "default": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-icon-default-icon-secondary-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-icon-default-icon-primary-ballybet),
+        ),
+      ),
+    ),
+    "text": (
+      "default": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-component-text-component-text-secondary-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-component-text-component-text-primary-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "bottomnav": (
+    "background": (
+      "color": (
+        "ballybet": var(--core-colornutral-white-main),
+      ),
+    ),
+    "icon": (
+      "default": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-icon-default-icon-secondary-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-icon-default-icon-primary-ballybet),
+        ),
+      ),
+    ),
+    "text": (
+      "default": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-component-text-component-text-secondary-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-component-text-component-text-primary-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "inputfield": (
+    "y": (
+      "padding": (
+        "ballybet": var(--properties-padding-8px),
+      ),
+    ),
+    "x": (
+      "padding": (
+        "ballybet": var(--properties-padding-16px),
+      ),
+    ),
+    "placeholder": (
+      "text": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-component-text-component-text-soft-ballybet),
+        ),
+      ),
+    ),
+    "radius": (
+      "ballybet": var(--properties-radius-smx4x),
+    ),
+    "height": (
+      "ballybet": var(--core-numbers-48px),
+    ),
+    "border": (
+      "color": (
+        "inactive": (
+          "ballybet": var(--theme-colorstyles-component-border-component-border-dark-soft-ballybet),
+        ),
+        "active": (
+          "ballybet": var(--theme-colorstyles-component-border-component-border-dark-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "topnavcombined": (
+    "background": (
+      "color": (
+        "ballybet": var(--theme-colorstyles-component-fill-component-fill-primary-ballybet),
+      ),
+    ),
+    "icon": (
+      "icon": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-icon-default-icon-light-ballybet),
+          "active": (
+            "ballybet": var(--theme-colorstyles-icon-default-icon-light-ballybet),
+          ),
+        ),
+      ),
+    ),
+    "text": (
+      "text": (
+        "color": (
+          "ballybet": var(--theme-colorstyles-component-text-component-text-light-ballybet),
+          "active": (
+            "ballybet": var(--theme-colorstyles-component-text-component-text-light-ballybet),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "registrationstepper": (
+    "progress": (
+      "color": (
+        "ballybet": #00FF4F,
+      ),
+    ),
+  ),
+);

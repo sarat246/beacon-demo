@@ -1,0 +1,940 @@
+$theme-doublebubble-tokens: (
+  "colorstyles": (
+    "icon": (
+      "default": (
+        "icon": (
+          "secondary": (
+            "doublebubble": var(--core-colorbrand-doublebubble-secondary-500),
+          ),
+          "light": (
+            "doublebubble": var(--core-colornutral-white-main),
+          ),
+          "primary": (
+            "doublebubble": var(--core-colorbrand-doublebubble-primary-500),
+          ),
+          "gray": (
+            "doublebubble": var(--core-colornutral-graystrong-200),
+          ),
+          "dark": (
+            "doublebubble": var(--core-colornutral-graystrong-800),
+          ),
+          "positive": (
+            "doublebubble": var(--core-coloralerts-positive-500),
+          ),
+          "negative": (
+            "doublebubble": var(--core-coloralerts-negative-500),
+          ),
+          "warning": (
+            "doublebubble": var(--core-coloralerts-warning-500),
+          ),
+          "disabled": (
+            "doublebubble": var(--core-colornutral-graystrong-400),
+          ),
+        ),
+      ),
+      "hover": (
+        "icon": (
+          "hover": (
+            "dark": (
+              "doublebubble": var(--core-colornutral-white-main),
+            ),
+            "gray": (
+              "doublebubble": var(--core-colornutral-graystrong-600),
+            ),
+            "primary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-primary-600),
+            ),
+            "secondary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-secondary-600),
+            ),
+            "positive": (
+              "doublebubble": var(--core-coloralerts-positive-600),
+            ),
+            "negative": (
+              "doublebubble": var(--core-coloralerts-negative-600),
+            ),
+            "warning": (
+              "doublebubble": var(--core-coloralerts-warning-600),
+            ),
+          ),
+        ),
+      ),
+    ),
+    "component": (
+      "text": (
+        "component": (
+          "text": (
+            "secondary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-secondary-500),
+              "hover": (
+                "doublebubble": var(--core-colorbrand-doublebubble-secondary-600),
+              ),
+            ),
+            "light": (
+              "doublebubble": var(--core-colornutral-white-main),
+            ),
+            "soft": (
+              "doublebubble": var(--core-colornutral-graysoft-500),
+            ),
+            "primary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-primary-500),
+              "hover": (
+                "doublebubble": var(--core-colorbrand-doublebubble-primary-600),
+              ),
+            ),
+            "gray": (
+              "hover": (
+                "doublebubble": var(--core-colornutral-graysoft-600),
+              ),
+            ),
+            "dark": (
+              "doublebubble": var(--core-colornutral-graystrong-700),
+              "hover": (
+                "doublebubble": var(--core-colornutral-graystrong-800),
+              ),
+            ),
+            "disabled": (
+              "doublebubble": var(--core-colornutral-graystrong-400),
+            ),
+          ),
+        ),
+      ),
+      "fill": (
+        "component": (
+          "fill": (
+            "primary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-primary-500),
+              "soft": (
+                "doublebubble": var(--core-colorbrand-doublebubble-primary-50),
+              ),
+              "dark": (
+                "doublebubble": var(--core-colorbrand-doublebubble-primary-800),
+              ),
+            ),
+            "secondary": (
+              "soft": (
+                "doublebubble": var(--core-colorbrand-doublebubble-secondary-50),
+              ),
+              "dark": (
+                "doublebubble": var(--core-colorbrand-doublebubble-secondary-800),
+              ),
+              "doublebubble": var(--core-colorbrand-doublebubble-secondary-500),
+            ),
+            "light": (
+              "doublebubble": var(--core-colornutral-white-main),
+            ),
+            "dark": (
+              "doublebubble": var(--core-colornutral-graystrong-800),
+              "soft": (
+                "doublebubble": var(--core-colornutral-graysoft-50),
+              ),
+            ),
+            "disabled": (
+              "doublebubble": var(--core-colornutral-graystrong-25),
+            ),
+            "gray": (
+              "doublebubble": var(--core-colornutral-graysoft-500),
+              "dark": (
+                "doublebubble": var(--core-colornutral-graysoft-900),
+              ),
+              "light": (
+                "doublebubble": var(--core-colornutral-graysoft-50),
+              ),
+            ),
+          ),
+        ),
+      ),
+      "border": (
+        "component": (
+          "border": (
+            "dark": (
+              "soft": (
+                "doublebubble": var(--core-colornutral-graysoft-200),
+              ),
+              "doublebubble": var(--core-colornutral-graystrong-800),
+            ),
+            "light": (
+              "doublebubble": var(--core-colornutral-white-main),
+            ),
+            "primary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-primary-500),
+              "soft": (
+                "doublebubble": var(--core-colorbrand-doublebubble-primary-100),
+              ),
+            ),
+            "secondary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-secondary-500),
+              "soft": (
+                "doublebubble": var(--core-colorbrand-doublebubble-secondary-100),
+              ),
+            ),
+            "disabled": (
+              "doublebubble": var(--core-colornutral-graystrong-50),
+            ),
+          ),
+        ),
+      ),
+      "hover": (
+        "component": (
+          "hover": (
+            "light": (
+              "doublebubble": var(--core-colornutral-graystrong-700),
+            ),
+            "dark": (
+              "doublebubble": var(--core-colornutral-white-main),
+              "soft": (
+                "doublebubble": var(--core-colornutral-graysoft-100),
+              ),
+            ),
+            "gray": (
+              "doublebubble": var(--core-colornutral-graystrong-900),
+            ),
+            "primary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-primary-600),
+              "light": (
+                "doublebubble": var(--core-colorbrand-doublebubble-primary-400),
+              ),
+              "soft": (
+                "doublebubble": var(--core-colorbrand-doublebubble-primary-50),
+              ),
+            ),
+            "secondary": (
+              "doublebubble": var(--core-colorbrand-doublebubble-secondary-600),
+              "light": (
+                "doublebubble": var(--core-colorbrand-doublebubble-secondary-400),
+              ),
+              "soft": (
+                "doublebubble": var(--core-colorbrand-doublebubble-secondary-50),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    "typography": (
+      "heading": (
+        "doublebubble": var(--core-colornutral-graystrong-900),
+        "light": (
+          "doublebubble": var(--core-colornutral-white-main),
+        ),
+      ),
+      "caption": (
+        "promary": (
+          "doublebubble": var(--core-colorbrand-doublebubble-primary-900),
+        ),
+        "light": (
+          "doublebubble": var(--core-colornutral-white-main),
+        ),
+        "soft": (
+          "doublebubble": var(--core-colornutral-graysoft-500),
+        ),
+      ),
+      "body": (
+        "doublebubble": var(--core-colornutral-graystrong-900),
+        "light": (
+          "doublebubble": var(--core-colornutral-white-main),
+        ),
+        "soft": (
+          "doublebubble": var(--core-colornutral-graystrong-100),
+        ),
+      ),
+      "headingprimary": (
+        "doublebubble": var(--core-colorbrand-doublebubble-primary-600),
+      ),
+    ),
+    "background": (
+      "background": (
+        "fill": (
+          "surface": (
+            "doublebubble": var(--core-colornutral-graysoft-50),
+          ),
+          "elevations1": (
+            "doublebubble": var(--core-colornutral-white-main),
+          ),
+          "elevation2": (
+            "doublebubble": var(--core-colornutral-white-main),
+          ),
+        ),
+      ),
+    ),
+    "alerts": (
+      "error": (
+        "text": (
+          "dark": (
+            "doublebubble": var(--core-coloralerts-negative-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "doublebubble": var(--core-coloralerts-negative-50),
+          ),
+        ),
+      ),
+      "warning": (
+        "text": (
+          "dark": (
+            "doublebubble": var(--core-coloralerts-warning-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "doublebubble": var(--core-coloralerts-warning-50),
+          ),
+        ),
+      ),
+      "success": (
+        "text": (
+          "dark": (
+            "doublebubble": var(--core-coloralerts-positive-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "doublebubble": var(--core-coloralerts-positive-50),
+          ),
+        ),
+      ),
+      "info": (
+        "text": (
+          "dark": (
+            "doublebubble": var(--core-coloralerts-info-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "doublebubble": var(--core-coloralerts-info-50),
+          ),
+        ),
+      ),
+      "alert": (
+        "fill": (
+          "new": (
+            "doublebubble": var(--core-colornutral-graysoft-50),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "textstyles": (
+    "headings": (
+      "h1": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-28px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-44px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+      ),
+      "h2": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-24px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-36px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h3": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-22px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-30px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h4": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-18px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-28px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h5": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-26px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h6": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-14px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "body": (
+      "default": (
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+      ),
+      "large": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-18px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-24px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+        "bold": (
+          "weight": (
+            "doublebubble": var(--properties-fontweight-regular),
+          ),
+          "font": (
+            "size": (
+              "doublebubble": var(--properties-fontsize-18px),
+            ),
+          ),
+          "line": (
+            "height": (
+              "doublebubble": var(--properties-lineheight-24px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "doublebubble": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "body": (
+        "small": (
+          "font": (
+            "size": (
+              "doublebubble": var(--properties-fontsize-14px),
+            ),
+          ),
+          "weight": (
+            "doublebubble": var(--properties-fontweight-regular),
+          ),
+          "line": (
+            "height": (
+              "doublebubble": var(--properties-lineheight-18px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "doublebubble": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "bold": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "small": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-12px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+        "bold": (
+          "font": (
+            "size": (
+              "doublebubble": var(--properties-fontsize-12px),
+            ),
+          ),
+          "weight": (
+            "doublebubble": var(--properties-fontweight-bold),
+          ),
+          "line": (
+            "height": (
+              "doublebubble": var(--properties-lineheight-18px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "doublebubble": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "tiny": (
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-12px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "font": (
+      "family": (
+        "doublebubble": var(--core-fontfamily-dbb-outfit),
+      ),
+    ),
+    "caption": (
+      "main": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-15px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "bold": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-15px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "small": (
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-14px),
+          ),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "smallbold": (
+        "size": (
+          "doublebubble": var(--properties-fontsize-14px),
+        ),
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "alert": (
+      "title": (
+        "weight": (
+          "doublebubble": var(--properties-fontweight-bold),
+        ),
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-16px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "mesage": (
+        "weight": (
+          "doublebubble": var(--properties-fontweight-regular),
+        ),
+        "font": (
+          "size": (
+            "doublebubble": var(--properties-fontsize-16px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "doublebubble": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "doublebubble": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "buttonstyles": (
+    "radius": (
+      "large": (
+        "doublebubble": var(--properties-radius-infinity),
+      ),
+      "medium": (
+        "doublebubble": var(--properties-radius-infinity),
+      ),
+      "small": (
+        "doublebubble": var(--properties-radius-infinity),
+      ),
+    ),
+    "padding": (
+      "y": (
+        "large": (
+          "doublebubble": var(--properties-padding-12px),
+        ),
+        "medium": (
+          "doublebubble": var(--properties-padding-10px),
+        ),
+        "small": (
+          "doublebubble": var(--properties-padding-6px),
+        ),
+      ),
+      "x": (
+        "large": (
+          "doublebubble": var(--properties-padding-16px),
+        ),
+        "medium": (
+          "doublebubble": var(--properties-padding-14px),
+        ),
+        "small": (
+          "doublebubble": var(--properties-padding-10px),
+        ),
+      ),
+    ),
+    "fontsize": (
+      "large": (
+        "doublebubble": var(--properties-fontsize-14px),
+      ),
+      "medium": (
+        "doublebubble": var(--properties-fontsize-13px),
+      ),
+      "small": (
+        "doublebubble": var(--properties-fontsize-12px),
+      ),
+    ),
+    "fontweight": (
+      "bold": (
+        "doublebubble": var(--core-font-weight-bold),
+      ),
+    ),
+    "height": (
+      "large": (
+        "doublebubble": var(--core-numbers-48px),
+      ),
+      "medium": (
+        "doublebubble": var(--core-numbers-40px),
+      ),
+      "small": (
+        "doublebubble": var(--core-numbers-32px),
+      ),
+    ),
+  ),
+  "spacing": (
+    "space": (
+      "xs": (
+        "doublebubble": 0px,
+      ),
+    ),
+  ),
+  "logos": (
+    "logo": (
+      "doublebubble": DBB,
+    ),
+  ),
+  "topnav": (
+    "background": (
+      "color": (
+        "doublebubble": var(--core-colornutral-white-main),
+      ),
+    ),
+    "icon": (
+      "default": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-icon-default-icon-secondary-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-icon-default-icon-secondary-ballybet),
+        ),
+      ),
+    ),
+    "text": (
+      "default": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-text-component-text-soft-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-text-component-text-secondary-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "bottomnav": (
+    "background": (
+      "color": (
+        "doublebubble": var(--theme-colorstyles-component-fill-component-fill-secondary-soft-ballybet),
+      ),
+    ),
+    "icon": (
+      "default": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-icon-default-icon-gray-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-fill-component-fill-secondary-dark-ballybet),
+        ),
+      ),
+    ),
+    "text": (
+      "default": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-text-component-text-gray-hover-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-fill-component-fill-secondary-dark-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "inputfield": (
+    "y": (
+      "padding": (
+        "doublebubble": var(--properties-padding-8px),
+      ),
+    ),
+    "x": (
+      "padding": (
+        "doublebubble": var(--properties-padding-16px),
+      ),
+    ),
+    "placeholder": (
+      "text": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-text-component-text-soft-ballybet),
+        ),
+      ),
+    ),
+    "radius": (
+      "doublebubble": var(--properties-radius-smx4x),
+    ),
+    "height": (
+      "doublebubble": var(--core-numbers-48px),
+    ),
+    "border": (
+      "color": (
+        "inactive": (
+          "doublebubble": var(--theme-colorstyles-component-border-component-border-dark-soft-ballybet),
+        ),
+        "active": (
+          "doublebubble": var(--theme-colorstyles-component-border-component-border-dark-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "topnavcombined": (
+    "background": (
+      "color": (
+        "doublebubble": var(--theme-colorstyles-component-fill-component-fill-primary-ballybet),
+      ),
+    ),
+    "icon": (
+      "icon": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-icon-default-icon-light-ballybet),
+          "active": (
+            "doublebubble": var(--theme-colorstyles-icon-default-icon-light-ballybet),
+          ),
+        ),
+      ),
+    ),
+    "text": (
+      "text": (
+        "color": (
+          "doublebubble": var(--theme-colorstyles-component-text-component-text-light-ballybet),
+          "active": (
+            "doublebubble": var(--theme-colorstyles-component-text-component-text-light-ballybet),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "registrationstepper": (
+    "progress": (
+      "color": (
+        "doublebubble": #00FF4F,
+      ),
+    ),
+  ),
+);

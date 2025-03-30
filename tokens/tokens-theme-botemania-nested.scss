@@ -1,0 +1,940 @@
+$theme-botemania-tokens: (
+  "colorstyles": (
+    "icon": (
+      "default": (
+        "icon": (
+          "secondary": (
+            "botemania": var(--core-colorbrand-jackpotjoy-secondary-500),
+          ),
+          "light": (
+            "botemania": var(--core-colornutral-white-main),
+          ),
+          "primary": (
+            "botemania": var(--core-colorbrand-botemania-primary-500),
+          ),
+          "gray": (
+            "botemania": var(--core-colornutral-graystrong-200),
+          ),
+          "dark": (
+            "botemania": var(--core-colornutral-graystrong-800),
+          ),
+          "positive": (
+            "botemania": var(--core-coloralerts-positive-500),
+          ),
+          "negative": (
+            "botemania": var(--core-coloralerts-negative-500),
+          ),
+          "warning": (
+            "botemania": var(--core-coloralerts-warning-500),
+          ),
+          "disabled": (
+            "botemania": var(--core-colornutral-graystrong-400),
+          ),
+        ),
+      ),
+      "hover": (
+        "icon": (
+          "hover": (
+            "dark": (
+              "botemania": var(--core-colornutral-white-main),
+            ),
+            "gray": (
+              "botemania": var(--core-colornutral-graystrong-600),
+            ),
+            "primary": (
+              "botemania": var(--core-colorbrand-botemania-primary-600),
+            ),
+            "secondary": (
+              "botemania": var(--core-colorbrand-botemania-secondary-600),
+            ),
+            "positive": (
+              "botemania": var(--core-coloralerts-positive-600),
+            ),
+            "negative": (
+              "botemania": var(--core-coloralerts-negative-600),
+            ),
+            "warning": (
+              "botemania": var(--core-coloralerts-warning-600),
+            ),
+          ),
+        ),
+      ),
+    ),
+    "component": (
+      "text": (
+        "component": (
+          "text": (
+            "secondary": (
+              "botemania": var(--core-colorbrand-botemania-secondary-500),
+              "hover": (
+                "botemania": var(--core-colorbrand-botemania-secondary-600),
+              ),
+            ),
+            "light": (
+              "botemania": var(--core-colornutral-white-main),
+            ),
+            "soft": (
+              "botemania": var(--core-colornutral-graysoft-500),
+            ),
+            "primary": (
+              "botemania": var(--core-colorbrand-botemania-primary-500),
+              "hover": (
+                "botemania": var(--core-colorbrand-botemania-primary-600),
+              ),
+            ),
+            "gray": (
+              "hover": (
+                "botemania": var(--core-colornutral-graysoft-600),
+              ),
+            ),
+            "dark": (
+              "botemania": var(--core-colornutral-graystrong-700),
+              "hover": (
+                "botemania": var(--core-colornutral-graystrong-800),
+              ),
+            ),
+            "disabled": (
+              "botemania": var(--core-colornutral-graystrong-400),
+            ),
+          ),
+        ),
+      ),
+      "fill": (
+        "component": (
+          "fill": (
+            "primary": (
+              "botemania": var(--core-colorbrand-botemania-primary-500),
+              "soft": (
+                "botemania": var(--core-colorbrand-botemania-primary-50),
+              ),
+              "dark": (
+                "botemania": var(--core-colorbrand-botemania-primary-800),
+              ),
+            ),
+            "secondary": (
+              "soft": (
+                "botemania": var(--core-colorbrand-botemania-secondary-50),
+              ),
+              "dark": (
+                "botemania": var(--core-colorbrand-botemania-secondary-800),
+              ),
+              "botemania": var(--core-colorbrand-botemania-secondary-500),
+            ),
+            "light": (
+              "botemania": var(--core-colornutral-white-main),
+            ),
+            "dark": (
+              "botemania": var(--core-colornutral-graystrong-800),
+              "soft": (
+                "botemania": var(--core-colornutral-graysoft-50),
+              ),
+            ),
+            "disabled": (
+              "botemania": var(--core-colornutral-graystrong-25),
+            ),
+            "gray": (
+              "botemania": var(--core-colornutral-graysoft-500),
+              "dark": (
+                "botemania": var(--core-colornutral-graysoft-900),
+              ),
+              "light": (
+                "botemania": var(--core-colornutral-graysoft-50),
+              ),
+            ),
+          ),
+        ),
+      ),
+      "border": (
+        "component": (
+          "border": (
+            "dark": (
+              "soft": (
+                "botemania": var(--core-colornutral-graysoft-200),
+              ),
+              "botemania": var(--core-colornutral-graystrong-800),
+            ),
+            "light": (
+              "botemania": var(--core-colornutral-white-main),
+            ),
+            "primary": (
+              "botemania": var(--core-colorbrand-botemania-primary-500),
+              "soft": (
+                "botemania": var(--core-colorbrand-botemania-primary-100),
+              ),
+            ),
+            "secondary": (
+              "botemania": var(--core-colorbrand-botemania-secondary-500),
+              "soft": (
+                "botemania": var(--core-colorbrand-botemania-secondary-100),
+              ),
+            ),
+            "disabled": (
+              "botemania": var(--core-colornutral-graystrong-50),
+            ),
+          ),
+        ),
+      ),
+      "hover": (
+        "component": (
+          "hover": (
+            "light": (
+              "botemania": var(--core-colornutral-graystrong-700),
+            ),
+            "dark": (
+              "botemania": var(--core-colornutral-white-main),
+              "soft": (
+                "botemania": var(--core-colornutral-graysoft-100),
+              ),
+            ),
+            "gray": (
+              "botemania": var(--core-colornutral-graystrong-900),
+            ),
+            "primary": (
+              "botemania": var(--core-colorbrand-botemania-primary-600),
+              "light": (
+                "botemania": var(--core-colorbrand-botemania-primary-400),
+              ),
+              "soft": (
+                "botemania": var(--core-colorbrand-botemania-primary-50),
+              ),
+            ),
+            "secondary": (
+              "botemania": var(--core-colorbrand-botemania-secondary-600),
+              "light": (
+                "botemania": var(--core-colorbrand-botemania-secondary-400),
+              ),
+              "soft": (
+                "botemania": var(--core-colorbrand-botemania-secondary-50),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    "typography": (
+      "heading": (
+        "botemania": var(--core-colornutral-graystrong-900),
+        "light": (
+          "botemania": var(--core-colornutral-white-main),
+        ),
+      ),
+      "caption": (
+        "promary": (
+          "botemania": var(--core-colorbrand-botemania-primary-900),
+        ),
+        "light": (
+          "botemania": var(--core-colornutral-white-main),
+        ),
+        "soft": (
+          "botemania": var(--core-colornutral-graysoft-500),
+        ),
+      ),
+      "body": (
+        "botemania": var(--core-colornutral-graystrong-900),
+        "light": (
+          "botemania": var(--core-colornutral-white-main),
+        ),
+        "soft": (
+          "botemania": var(--core-colornutral-graystrong-100),
+        ),
+      ),
+      "headingprimary": (
+        "botemania": var(--core-colorbrand-botemania-primary-600),
+      ),
+    ),
+    "background": (
+      "background": (
+        "fill": (
+          "surface": (
+            "botemania": var(--core-colornutral-graysoft-50),
+          ),
+          "elevations1": (
+            "botemania": var(--core-colornutral-white-main),
+          ),
+          "elevation2": (
+            "botemania": var(--core-colornutral-white-main),
+          ),
+        ),
+      ),
+    ),
+    "alerts": (
+      "error": (
+        "text": (
+          "dark": (
+            "botemania": var(--core-coloralerts-negative-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "botemania": var(--core-coloralerts-negative-50),
+          ),
+        ),
+      ),
+      "warning": (
+        "text": (
+          "dark": (
+            "botemania": var(--core-coloralerts-warning-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "botemania": var(--core-coloralerts-warning-50),
+          ),
+        ),
+      ),
+      "success": (
+        "text": (
+          "dark": (
+            "botemania": var(--core-coloralerts-positive-500),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "botemania": var(--core-coloralerts-positive-50),
+          ),
+        ),
+      ),
+      "info": (
+        "text": (
+          "dark": (
+            "botemania": var(--core-coloralerts-info-600),
+          ),
+        ),
+        "fill": (
+          "light": (
+            "botemania": var(--core-coloralerts-info-50),
+          ),
+        ),
+      ),
+      "alert": (
+        "fill": (
+          "new": (
+            "botemania": var(--core-colornutral-graysoft-50),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "textstyles": (
+    "headings": (
+      "h1": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-28px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-44px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+      ),
+      "h2": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-24px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-36px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h3": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-22px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-30px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h4": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-18px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-28px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h5": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-26px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "h6": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-14px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "body": (
+      "default": (
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+      ),
+      "large": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-18px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-24px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+        "bold": (
+          "weight": (
+            "botemania": var(--properties-fontweight-bold),
+          ),
+          "font": (
+            "size": (
+              "botemania": var(--properties-fontsize-18px),
+            ),
+          ),
+          "line": (
+            "height": (
+              "botemania": var(--properties-lineheight-24px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "botemania": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "body": (
+        "small": (
+          "font": (
+            "size": (
+              "botemania": var(--properties-fontsize-14px),
+            ),
+          ),
+          "weight": (
+            "botemania": var(--properties-fontweight-regular),
+          ),
+          "line": (
+            "height": (
+              "botemania": var(--properties-lineheight-18px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "botemania": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "bold": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-16px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "small": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-12px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+        "bold": (
+          "font": (
+            "size": (
+              "botemania": var(--properties-fontsize-12px),
+            ),
+          ),
+          "weight": (
+            "botemania": var(--properties-fontweight-bold),
+          ),
+          "line": (
+            "height": (
+              "botemania": var(--properties-lineheight-18px),
+            ),
+          ),
+          "letter": (
+            "spacing": (
+              "botemania": var(--properties-letterspacing-none),
+            ),
+          ),
+        ),
+      ),
+      "tiny": (
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-12px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "font": (
+      "family": (
+        "botemania": var(--core-fontfamily-btm-kumbh-sans),
+      ),
+    ),
+    "caption": (
+      "main": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-15px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "bold": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-15px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-20px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "small": (
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-14px),
+          ),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "smallbold": (
+        "size": (
+          "botemania": var(--properties-fontsize-14px),
+        ),
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+    "alert": (
+      "title": (
+        "weight": (
+          "botemania": var(--properties-fontweight-bold),
+        ),
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-16px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+      "mesage": (
+        "weight": (
+          "botemania": var(--properties-fontweight-regular),
+        ),
+        "font": (
+          "size": (
+            "botemania": var(--properties-fontsize-16px),
+          ),
+        ),
+        "line": (
+          "height": (
+            "botemania": var(--properties-lineheight-18px),
+          ),
+        ),
+        "letter": (
+          "spacing": (
+            "botemania": var(--properties-letterspacing-none),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "buttonstyles": (
+    "radius": (
+      "large": (
+        "botemania": var(--properties-radius-smx4x),
+      ),
+      "medium": (
+        "botemania": var(--properties-radius-smx3x),
+      ),
+      "small": (
+        "botemania": var(--properties-radius-smx2x),
+      ),
+    ),
+    "padding": (
+      "y": (
+        "large": (
+          "botemania": var(--properties-padding-12px),
+        ),
+        "medium": (
+          "botemania": var(--properties-padding-10px),
+        ),
+        "small": (
+          "botemania": var(--properties-padding-6px),
+        ),
+      ),
+      "x": (
+        "large": (
+          "botemania": var(--properties-padding-16px),
+        ),
+        "medium": (
+          "botemania": var(--properties-padding-14px),
+        ),
+        "small": (
+          "botemania": var(--properties-padding-10px),
+        ),
+      ),
+    ),
+    "fontsize": (
+      "large": (
+        "botemania": var(--properties-fontsize-14px),
+      ),
+      "medium": (
+        "botemania": var(--properties-fontsize-13px),
+      ),
+      "small": (
+        "botemania": var(--properties-fontsize-12px),
+      ),
+    ),
+    "fontweight": (
+      "bold": (
+        "botemania": var(--core-font-weight-bold),
+      ),
+    ),
+    "height": (
+      "large": (
+        "botemania": var(--core-numbers-48px),
+      ),
+      "medium": (
+        "botemania": var(--core-numbers-40px),
+      ),
+      "small": (
+        "botemania": var(--core-numbers-32px),
+      ),
+    ),
+  ),
+  "spacing": (
+    "space": (
+      "xs": (
+        "botemania": 0px,
+      ),
+    ),
+  ),
+  "logos": (
+    "logo": (
+      "botemania": BTM,
+    ),
+  ),
+  "topnav": (
+    "background": (
+      "color": (
+        "botemania": var(--core-colornutral-white-main),
+      ),
+    ),
+    "icon": (
+      "default": (
+        "color": (
+          "botemania": var(--theme-colorstyles-icon-default-icon-primary-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "botemania": var(--theme-colorstyles-icon-default-icon-primary-ballybet),
+        ),
+      ),
+    ),
+    "text": (
+      "default": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-text-component-text-soft-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-text-component-text-primary-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "bottomnav": (
+    "background": (
+      "color": (
+        "botemania": var(--theme-colorstyles-component-fill-component-fill-primary-ballybet),
+      ),
+    ),
+    "icon": (
+      "default": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-fill-component-fill-primary-soft-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-fill-component-fill-light-ballybet),
+        ),
+      ),
+    ),
+    "text": (
+      "default": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-fill-component-fill-primary-soft-ballybet),
+        ),
+      ),
+      "active": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-fill-component-fill-light-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "inputfield": (
+    "y": (
+      "padding": (
+        "botemania": var(--properties-padding-8px),
+      ),
+    ),
+    "x": (
+      "padding": (
+        "botemania": var(--properties-padding-16px),
+      ),
+    ),
+    "placeholder": (
+      "text": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-text-component-text-soft-ballybet),
+        ),
+      ),
+    ),
+    "radius": (
+      "botemania": var(--properties-radius-smx4x),
+    ),
+    "height": (
+      "botemania": var(--core-numbers-48px),
+    ),
+    "border": (
+      "color": (
+        "inactive": (
+          "botemania": var(--theme-colorstyles-component-border-component-border-dark-soft-ballybet),
+        ),
+        "active": (
+          "botemania": var(--theme-colorstyles-component-border-component-border-dark-ballybet),
+        ),
+      ),
+    ),
+  ),
+  "topnavcombined": (
+    "background": (
+      "color": (
+        "botemania": var(--theme-colorstyles-component-fill-component-fill-primary-ballybet),
+      ),
+    ),
+    "icon": (
+      "icon": (
+        "color": (
+          "botemania": var(--theme-colorstyles-icon-default-icon-light-ballybet),
+          "active": (
+            "botemania": var(--theme-colorstyles-icon-default-icon-light-ballybet),
+          ),
+        ),
+      ),
+    ),
+    "text": (
+      "text": (
+        "color": (
+          "botemania": var(--theme-colorstyles-component-text-component-text-light-ballybet),
+          "active": (
+            "botemania": var(--theme-colorstyles-component-text-component-text-light-ballybet),
+          ),
+        ),
+      ),
+    ),
+  ),
+  "registrationstepper": (
+    "progress": (
+      "color": (
+        "botemania": #00FF4F,
+      ),
+    ),
+  ),
+);
