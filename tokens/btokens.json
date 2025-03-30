@@ -1,6 +1,6 @@
 {
   "Core/core": {
-    "color-nutral": {
+    "colorNutral": {
       "white": {
         "main": {
           "$type": "color",
@@ -150,7 +150,7 @@
         }
       }
     },
-    "color-brand": {
+    "colorBrand": {
       "ballybet": {
         "primary": {
           "25": {
@@ -528,7 +528,7 @@
         }
       }
     },
-    "color-alerts": {
+    "colorAlerts": {
       "positive": {
         "25": {
           "$type": "color",
@@ -706,7 +706,7 @@
         }
       }
     },
-    "font-family": {
+    "fontFamily": {
       "BB-Bally Thrill": {
         "$type": "text",
         "$value": "Bally Thrill"
@@ -924,410 +924,410 @@
     }
   },
   "Theme/BallyBet": {
-    "color styles": {
+    "colorStyles": {
       "typography": {
         "heading": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "heading-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-promary": {
           "$type": "color",
-          "$value": "{color-brand.ballybet.primary.900}"
+          "$value": "{colorBrand.ballybet.primary.900}"
         },
         "caption-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.500}"
+          "$value": "{colorNutral.gray-soft.500}"
         },
         "body": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "body-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "body-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.500}"
+          "$value": "{colorNutral.gray-soft.500}"
         },
         "heading-primary": {
           "$type": "color",
-          "$value": "{color-brand.ballybet.primary.600}"
+          "$value": "{colorBrand.ballybet.primary.600}"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "icon-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "icon-primary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.500}"
+            "$value": "{colorBrand.ballybet.primary.500}"
           },
           "icon-secondary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.500}"
+            "$value": "{colorBrand.ballybet.secondary.500}"
           },
           "icon-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.500}"
+            "$value": "{colorAlerts.positive.500}"
           },
           "icon-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.500}"
+            "$value": "{colorAlerts.negative.500}"
           },
           "icon-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.500}"
+            "$value": "{colorAlerts.warning.500}"
           },
           "icon-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.50}"
+            "$value": "{colorNutral.gray-strong.50}"
           }
         },
         "hover": {
           "icon-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.900}"
+            "$value": "{colorNutral.gray-strong.900}"
           },
           "icon-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.600}"
+            "$value": "{colorNutral.gray-strong.600}"
           },
           "icon-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.600}"
+            "$value": "{colorBrand.ballybet.primary.600}"
           },
           "icon-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.600}"
+            "$value": "{colorBrand.ballybet.secondary.600}"
           },
           "icon-hover-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.600}"
+            "$value": "{colorAlerts.positive.600}"
           },
           "icon-hover-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.600}"
+            "$value": "{colorAlerts.negative.600}"
           },
           "icon-hover-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.600}"
+            "$value": "{colorAlerts.warning.600}"
           }
         }
       },
       "background": {
         "background-fill-surface": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         },
         "background-fill-elevations1": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "background-fill-elevation2": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-text-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-text-dark-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-text-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-text-gray-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.600}"
+            "$value": "{colorNutral.gray-soft.600}"
           },
           "component-text-primary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.500}"
+            "$value": "{colorBrand.ballybet.primary.500}"
           },
           "component-text-primary-hover": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.600}"
+            "$value": "{colorBrand.ballybet.primary.600}"
           },
           "component-text-secondary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.500}"
+            "$value": "{colorBrand.ballybet.secondary.500}"
           },
           "component-text-secondary-hover": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.600}"
+            "$value": "{colorBrand.ballybet.secondary.600}"
           },
           "component-text-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.50}"
+            "$value": "{colorNutral.gray-strong.50}"
           }
         },
         "fill": {
           "component-fill-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-fill-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-fill-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           },
           "component-fill-primary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.500}"
+            "$value": "{colorBrand.ballybet.primary.500}"
           },
           "component-fill-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.50}"
+            "$value": "{colorBrand.ballybet.primary.50}"
           },
           "component-fill-secondary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.500}"
+            "$value": "{colorBrand.ballybet.secondary.500}"
           },
           "component-fill-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.50}"
+            "$value": "{colorBrand.ballybet.secondary.50}"
           },
           "component-fill-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.25}"
+            "$value": "{colorNutral.gray-strong.25}"
           },
           "component-fill-primary-dark": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.800}"
+            "$value": "{colorBrand.ballybet.primary.800}"
           },
           "component-fill-secondary-dark": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.800}"
+            "$value": "{colorBrand.ballybet.secondary.800}"
           },
           "component-fill-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-fill-gray-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.gray-soft-900}"
+            "$value": "{colorNutral.gray-soft.gray-soft-900}"
           },
           "component-fill-gray-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           }
         },
         "border": {
           "component-border-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-border-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-border-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.200}"
+            "$value": "{colorNutral.gray-soft.200}"
           },
           "component-border-primary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.500}"
+            "$value": "{colorBrand.ballybet.primary.500}"
           },
           "component-border-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.100}"
+            "$value": "{colorBrand.ballybet.primary.100}"
           },
           "component-border-secondary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.500}"
+            "$value": "{colorBrand.ballybet.secondary.500}"
           },
           "component-border-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.100}"
+            "$value": "{colorBrand.ballybet.secondary.100}"
           },
           "component-border-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.50}"
+            "$value": "{colorNutral.gray-strong.50}"
           }
         },
         "hover": {
           "component-hover-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.600}"
+            "$value": "{colorNutral.gray-strong.600}"
           },
           "component-hover-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.100}"
+            "$value": "{colorNutral.gray-soft.100}"
           },
           "component-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           },
           "component-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.600}"
+            "$value": "{colorBrand.ballybet.primary.600}"
           },
           "component-hover-primary-light": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.400}"
+            "$value": "{colorBrand.ballybet.primary.400}"
           },
           "component-hover-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.primary.50}"
+            "$value": "{colorBrand.ballybet.primary.50}"
           },
           "component-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.600}"
+            "$value": "{colorBrand.ballybet.secondary.600}"
           },
           "component-hover-secondary-light": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.400}"
+            "$value": "{colorBrand.ballybet.secondary.400}"
           },
           "component-hover-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.ballybet.secondary.50}"
+            "$value": "{colorBrand.ballybet.secondary.50}"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.negative.500}"
+          "$value": "{colorAlerts.negative.500}"
         },
         "Error-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.negative.50}"
+          "$value": "{colorAlerts.negative.50}"
         },
         "Warning-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.warning.500}"
+          "$value": "{colorAlerts.warning.500}"
         },
         "Warning-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.warning.50}"
+          "$value": "{colorAlerts.warning.50}"
         },
         "Success-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.positive.500}"
+          "$value": "{colorAlerts.positive.500}"
         },
         "Success-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.positive.50}"
+          "$value": "{colorAlerts.positive.50}"
         },
         "Info-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.info.500}"
+          "$value": "{colorAlerts.info.500}"
         },
         "Info-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.info.50}"
+          "$value": "{colorAlerts.info.50}"
         },
         "alert-fill-new": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         }
       }
     },
-    "top nav": {
+    "topNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-secondary}"
+          "$value": "{colorStyles.icon.default.icon-secondary}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-primary}"
+          "$value": "{colorStyles.icon.default.icon-primary}"
         }
       },
       "text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-secondary}"
+          "$value": "{colorStyles.component.text.component-text-secondary}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-primary}"
+          "$value": "{colorStyles.component.text.component-text-primary}"
         }
       }
     },
-    "bottom nav": {
+    "bottomNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-secondary}"
+          "$value": "{colorStyles.icon.default.icon-secondary}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-primary}"
+          "$value": "{colorStyles.icon.default.icon-primary}"
         }
       },
       "Text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-secondary}"
+          "$value": "{colorStyles.component.text.component-text-secondary}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-primary}"
+          "$value": "{colorStyles.component.text.component-text-primary}"
         }
       }
     },
-    "input field": {
-      "placeholder text xolor": {
+    "inputfield": {
+      "placeholder-text-color": {
         "$type": "color",
-        "$value": "{color styles.component.text.component-text-soft}"
+        "$value": "{colorStyles.component.text.component-text-soft}"
       },
-      "border color inactive": {
+      "border-color-inactive": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark-soft}"
+        "$value": "{colorStyles.component.border.component-border-dark-soft}"
       },
-      "border color active": {
+      "border-color-active": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark}"
+        "$value": "{colorStyles.component.border.component-border-dark}"
       },
       "y-padding": {
         "$type": "number",
@@ -1339,42 +1339,42 @@
       },
       "radius": {
         "$type": "number",
-        "$value": "{radius.radius-sm-4x}"
+        "$value": "{radius.sm-4x}"
       },
       "height": {
         "$type": "number",
         "$value": "{numbers.48px}"
       }
     },
-    "top nav combined": {
+    "topNavCombined": {
       "Background": {
         "color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary}"
+          "$value": "{colorStyles.component.fill.component-fill-primary}"
         }
       },
       "Icon": {
         "icon color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         },
         "icon color active": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         }
       },
       "Text": {
         "text color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         },
         "text color active": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         }
       }
     },
-    "registration stepper": {
+    "registrationStepper": {
       "progress": {
         "color": {
           "$type": "color",
@@ -1382,453 +1382,453 @@
         }
       }
     },
-    "text styles": {
+    "textStyles": {
       "headings": {
         "h1": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Narrow}"
+            "$value": "{fontWeight.Narrow}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.28px(1,65rem)}",
+            "$value": "{fontSize.28px}",
             "$description": "Page Titles Only"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.44px}"
+            "$value": "{lineHeight.44px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h2": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Narrow}"
+            "$value": "{fontWeight.Narrow}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.24px(1,5rem)}",
+            "$value": "{fontSize.24px}",
             "$description": "Betslip Modal Title\nChild Page Titles"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.36px}"
+            "$value": "{lineHeight.36px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h3": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.22px(1,375rem)}"
+            "$value": "{fontSize.22px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.30px}"
+            "$value": "{lineHeight.30px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h4": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
           "Line Height": {
             "$type": "number",
-            "$value": "{line height.28px}"
+            "$value": "{lineHeight.28px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h5": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.26px}"
+            "$value": "{lineHeight.26px}"
           },
           "Letter Spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h6": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "body": {
         "body default": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           }
         },
         "body large": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body large bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "tiny": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "font family": {
         "$type": "text",
-        "$value": "{font-family.BB-Bally Thrill}"
+        "$value": "{fontFamily.BB-Bally Thrill}"
       },
       "caption": {
         "caption main": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption mmall": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
           "Size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "alert": {
         "alert title": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "alert mesage": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       }
     },
-    "button styles": {
+    "buttonStyles": {
       "font-weight": {
-        "font-weight-allBtn": {
+        "bold": {
           "$type": "text",
           "$value": "{Font._Weight.Bold}"
         }
       },
       "radius": {
-        "radius-largeBtn": {
+        "large": {
           "$type": "number",
-          "$value": "{radius.radius-sm-4x}"
+          "$value": "{radius.sm-4x}"
         },
-        "radius-mediumBtn": {
+        "medium": {
           "$type": "number",
-          "$value": "{radius.radius-sm-4x}"
+          "$value": "{radius.sm-4x}"
         },
-        "radius-small": {
+        "small": {
           "$type": "number",
-          "$value": "{radius.radius-sm-3x}"
+          "$value": "{radius.sm-3x}"
         }
       },
       "padding": {
-        "y-padding-largeBtn": {
+        "y-large": {
           "$type": "number",
           "$value": "{padding.padding-12px}"
         },
-        "x-padding-largeBtn": {
+        "x-large": {
           "$type": "number",
           "$value": "{padding.padding-16px}"
         },
-        "y-padding-mediumBtn": {
+        "y-medium": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         },
-        "y-padding-smallBtn": {
+        "y-small": {
           "$type": "number",
           "$value": "{padding.padding-6px}"
         },
-        "x-padding-mediumBtn": {
+        "x-medium": {
           "$type": "number",
           "$value": "{padding.padding-14px}"
         },
-        "x-padding-smallBtn": {
+        "x-small": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         }
       },
       "font-size": {
-        "font-size-large": {
+        "large": {
           "$type": "number",
-          "$value": "{font size.14px(0,875rem)}"
+          "$value": "{fontSize.14px}"
         },
-        "font-size-medium": {
+        "medium": {
           "$type": "number",
-          "$value": "{font size.13px(0,8125rem)}"
+          "$value": "{fontSize.13px}"
         },
-        "font-size-small": {
+        "small": {
           "$type": "number",
-          "$value": "{font size.12px(0,75rem)}"
+          "$value": "{fontSize.12px}"
         }
       },
       "height": {
-        "height-largeBtn": {
+        "large": {
           "$type": "number",
           "$value": "{numbers.48px}"
         },
-        "height-mediumBtn": {
+        "medium": {
           "$type": "number",
           "$value": "{numbers.40px}"
         },
-        "height-smallBtn": {
+        "small": {
           "$type": "number",
           "$value": "{numbers.32px}"
         }
@@ -1849,410 +1849,410 @@
     }
   },
   "Theme/JackpotJoy": {
-    "color styles": {
+    "colorStyles": {
       "typography": {
         "heading": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "heading-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-promary": {
           "$type": "color",
-          "$value": "{color-brand.jackpotjoy.primary.900}"
+          "$value": "{colorBrand.jackpotjoy.primary.900}"
         },
         "caption-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.500}"
+          "$value": "{colorNutral.gray-soft.500}"
         },
         "body": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "body-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "body-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.100}"
+          "$value": "{colorNutral.gray-strong.100}"
         },
         "heading-primary": {
           "$type": "color",
-          "$value": "{color-brand.jackpotjoy.primary.600}"
+          "$value": "{colorBrand.jackpotjoy.primary.600}"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "icon-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.200}"
+            "$value": "{colorNutral.gray-strong.200}"
           },
           "icon-primary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.500}"
+            "$value": "{colorBrand.jackpotjoy.primary.500}"
           },
           "icon-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.500}"
+            "$value": "{colorBrand.jackpotjoy.secondary.500}"
           },
           "icon-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.500}"
+            "$value": "{colorAlerts.positive.500}"
           },
           "icon-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.500}"
+            "$value": "{colorAlerts.negative.500}"
           },
           "icon-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.500}"
+            "$value": "{colorAlerts.warning.500}"
           },
           "icon-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.400}"
+            "$value": "{colorNutral.gray-strong.400}"
           }
         },
         "hover": {
           "icon-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.600}"
+            "$value": "{colorNutral.gray-strong.600}"
           },
           "icon-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.600}"
+            "$value": "{colorBrand.jackpotjoy.primary.600}"
           },
           "icon-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.600}"
+            "$value": "{colorBrand.jackpotjoy.secondary.600}"
           },
           "icon-hover-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.600}"
+            "$value": "{colorAlerts.positive.600}"
           },
           "icon-hover-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.600}"
+            "$value": "{colorAlerts.negative.600}"
           },
           "icon-hover-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.600}"
+            "$value": "{colorAlerts.warning.600}"
           }
         }
       },
       "background": {
         "background-fill-surface": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         },
         "background-fill-elevations1": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "background-fill-elevation2": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-text-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-text-dark-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-text-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-text-gray-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.600}"
+            "$value": "{colorNutral.gray-soft.600}"
           },
           "component-text-primary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.500}"
+            "$value": "{colorBrand.jackpotjoy.primary.500}"
           },
           "component-text-primary-hover": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.600}"
+            "$value": "{colorBrand.jackpotjoy.primary.600}"
           },
           "component-text-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.500}"
+            "$value": "{colorBrand.jackpotjoy.secondary.500}"
           },
           "component-text-secondary-hover": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.600}"
+            "$value": "{colorBrand.jackpotjoy.secondary.600}"
           },
           "component-text-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.400}"
+            "$value": "{colorNutral.gray-strong.400}"
           }
         },
         "fill": {
           "component-fill-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-fill-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-fill-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           },
           "component-fill-primary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.500}"
+            "$value": "{colorBrand.jackpotjoy.primary.500}"
           },
           "component-fill-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.50}"
+            "$value": "{colorBrand.jackpotjoy.primary.50}"
           },
           "component-fill-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.500}"
+            "$value": "{colorBrand.jackpotjoy.secondary.500}"
           },
           "component-fill-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.50}"
+            "$value": "{colorBrand.jackpotjoy.secondary.50}"
           },
           "component-fill-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.25}"
+            "$value": "{colorNutral.gray-strong.25}"
           },
           "component-fill-primary-dark": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.900}"
+            "$value": "{colorBrand.jackpotjoy.primary.900}"
           },
           "component-fill-secondary-dark": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.800}"
+            "$value": "{colorBrand.jackpotjoy.secondary.800}"
           },
           "component-fill-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-fill-gray-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.gray-soft-900}"
+            "$value": "{colorNutral.gray-soft.gray-soft-900}"
           },
           "component-fill-gray-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           }
         },
         "border": {
           "component-border-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-border-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-border-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.200}"
+            "$value": "{colorNutral.gray-soft.200}"
           },
           "component-border-primary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.500}"
+            "$value": "{colorBrand.jackpotjoy.primary.500}"
           },
           "component-border-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.100}"
+            "$value": "{colorBrand.jackpotjoy.primary.100}"
           },
           "component-border-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.500}"
+            "$value": "{colorBrand.jackpotjoy.secondary.500}"
           },
           "component-border-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.100}"
+            "$value": "{colorBrand.jackpotjoy.secondary.100}"
           },
           "component-border-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.50}"
+            "$value": "{colorNutral.gray-strong.50}"
           }
         },
         "hover": {
           "component-hover-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-hover-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.100}"
+            "$value": "{colorNutral.gray-soft.100}"
           },
           "component-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.100}"
+            "$value": "{colorNutral.gray-soft.100}"
           },
           "component-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.600}"
+            "$value": "{colorBrand.jackpotjoy.primary.600}"
           },
           "component-hover-primary-light": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.400}"
+            "$value": "{colorBrand.jackpotjoy.primary.400}"
           },
           "component-hover-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.primary.50}"
+            "$value": "{colorBrand.jackpotjoy.primary.50}"
           },
           "component-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.600}"
+            "$value": "{colorBrand.jackpotjoy.secondary.600}"
           },
           "component-hover-secondary-light": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.400}"
+            "$value": "{colorBrand.jackpotjoy.secondary.400}"
           },
           "component-hover-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.50}"
+            "$value": "{colorBrand.jackpotjoy.secondary.50}"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.negative.500}"
+          "$value": "{colorAlerts.negative.500}"
         },
         "Error-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.negative.50}"
+          "$value": "{colorAlerts.negative.50}"
         },
         "Warning-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.warning.500}"
+          "$value": "{colorAlerts.warning.500}"
         },
         "Warning-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.warning.50}"
+          "$value": "{colorAlerts.warning.50}"
         },
         "Success-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.positive.500}"
+          "$value": "{colorAlerts.positive.500}"
         },
         "Success-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.positive.50}"
+          "$value": "{colorAlerts.positive.50}"
         },
         "Info-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.info.500}"
+          "$value": "{colorAlerts.info.500}"
         },
         "Info-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.info.50}"
+          "$value": "{colorAlerts.info.50}"
         },
         "alert-fill-new": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         }
       }
     },
-    "top nav": {
+    "topNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color-brand.jackpotjoy.primary.500}"
+          "$value": "{colorBrand.jackpotjoy.primary.500}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         }
       },
       "text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         }
       }
     },
-    "bottom nav": {
+    "bottomNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color-brand.jackpotjoy.primary.500}"
+          "$value": "{colorBrand.jackpotjoy.primary.500}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary-soft}"
+          "$value": "{colorStyles.component.fill.component-fill-primary-soft}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         }
       },
       "Text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary-soft}"
+          "$value": "{colorStyles.component.fill.component-fill-primary-soft}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         }
       }
     },
-    "input field": {
-      "placeholder text xolor": {
+    "inputfield": {
+      "placeholder-text-color": {
         "$type": "color",
-        "$value": "{color styles.component.text.component-text-soft}"
+        "$value": "{colorStyles.component.text.component-text-soft}"
       },
-      "border color inactive": {
+      "border-color-inactive": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark-soft}"
+        "$value": "{colorStyles.component.border.component-border-dark-soft}"
       },
-      "border color active": {
+      "border-color-active": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark}"
+        "$value": "{colorStyles.component.border.component-border-dark}"
       },
       "y-padding": {
         "$type": "number",
@@ -2264,42 +2264,42 @@
       },
       "radius": {
         "$type": "number",
-        "$value": "{radius.radius-sm-4x}"
+        "$value": "{radius.sm-4x}"
       },
       "height": {
         "$type": "number",
         "$value": "{numbers.48px}"
       }
     },
-    "top nav combined": {
+    "topNavCombined": {
       "Background": {
         "color": {
           "$type": "color",
-          "$value": "{color-brand.jackpotjoy.primary.500}"
+          "$value": "{colorBrand.jackpotjoy.primary.500}"
         }
       },
       "Icon": {
         "icon color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         },
         "icon color active": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         }
       },
       "Text": {
         "text color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         },
         "text color active": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         }
       }
     },
-    "registration stepper": {
+    "registrationStepper": {
       "progress": {
         "color": {
           "$type": "color",
@@ -2307,453 +2307,453 @@
         }
       }
     },
-    "text styles": {
+    "textStyles": {
       "headings": {
         "h1": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.28px(1,65rem)}",
+            "$value": "{fontSize.28px}",
             "$description": "Page Titles Only"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.44px}"
+            "$value": "{lineHeight.44px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h2": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.24px(1,5rem)}",
+            "$value": "{fontSize.24px}",
             "$description": "Betslip Modal Title\nChild Page Titles"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.36px}"
+            "$value": "{lineHeight.36px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h3": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.22px(1,375rem)}"
+            "$value": "{fontSize.22px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.30px}"
+            "$value": "{lineHeight.30px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h4": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
           "Line Height": {
             "$type": "number",
-            "$value": "{line height.28px}"
+            "$value": "{lineHeight.28px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h5": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.26px}"
+            "$value": "{lineHeight.26px}"
           },
           "Letter Spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h6": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "body": {
         "body default": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           }
         },
         "body large": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body large bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "tiny": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "font family": {
         "$type": "text",
-        "$value": "{font-family.JPJ-Nunito Sans}"
+        "$value": "{fontFamily.JPJ-Nunito Sans}"
       },
       "caption": {
         "caption main": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption mmall": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
           "Size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "alert": {
         "alert title": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "alert mesage": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       }
     },
-    "button styles": {
+    "buttonStyles": {
       "font-weight": {
-        "font-weight-allBtn": {
+        "bold": {
           "$type": "text",
           "$value": "{Font._Weight.Bold}"
         }
       },
       "radius": {
-        "radius-largeBtn": {
+        "large": {
           "$type": "number",
-          "$value": "{radius.radius-sm-4x}"
+          "$value": "{radius.sm-4x}"
         },
-        "radius-mediumBtn": {
+        "medium": {
           "$type": "number",
-          "$value": "{radius.radius-sm-3x}"
+          "$value": "{radius.sm-3x}"
         },
-        "radius-small": {
+        "small": {
           "$type": "number",
-          "$value": "{radius.radius-sm-2x}"
+          "$value": "{radius.sm-2x}"
         }
       },
       "padding": {
-        "y-padding-largeBtn": {
+        "y-large": {
           "$type": "number",
           "$value": "{padding.padding-12px}"
         },
-        "x-padding-largeBtn": {
+        "x-large": {
           "$type": "number",
           "$value": "{padding.padding-16px}"
         },
-        "y-padding-mediumBtn": {
+        "y-medium": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         },
-        "y-padding-smallBtn": {
+        "y-small": {
           "$type": "number",
           "$value": "{padding.padding-6px}"
         },
-        "x-padding-mediumBtn": {
+        "x-medium": {
           "$type": "number",
           "$value": "{padding.padding-14px}"
         },
-        "x-padding-smallBtn": {
+        "x-small": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         }
       },
       "font-size": {
-        "font-size-large": {
+        "large": {
           "$type": "number",
-          "$value": "{font size.14px(0,875rem)}"
+          "$value": "{fontSize.14px}"
         },
-        "font-size-medium": {
+        "medium": {
           "$type": "number",
-          "$value": "{font size.13px(0,8125rem)}"
+          "$value": "{fontSize.13px}"
         },
-        "font-size-small": {
+        "small": {
           "$type": "number",
-          "$value": "{font size.12px(0,75rem)}"
+          "$value": "{fontSize.12px}"
         }
       },
       "height": {
-        "height-largeBtn": {
+        "large": {
           "$type": "number",
           "$value": "{numbers.48px}"
         },
-        "height-mediumBtn": {
+        "medium": {
           "$type": "number",
           "$value": "{numbers.40px}"
         },
-        "height-smallBtn": {
+        "small": {
           "$type": "number",
           "$value": "{numbers.32px}"
         }
@@ -2774,410 +2774,410 @@
     }
   },
   "Theme/Botemania": {
-    "color styles": {
+    "colorStyles": {
       "typography": {
         "heading": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "heading-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-promary": {
           "$type": "color",
-          "$value": "{color-brand.botemania.primary.900}"
+          "$value": "{colorBrand.botemania.primary.900}"
         },
         "caption-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.500}"
+          "$value": "{colorNutral.gray-soft.500}"
         },
         "body": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "body-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "body-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.100}"
+          "$value": "{colorNutral.gray-strong.100}"
         },
         "heading-primary": {
           "$type": "color",
-          "$value": "{color-brand.botemania.primary.600}"
+          "$value": "{colorBrand.botemania.primary.600}"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "icon-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.200}"
+            "$value": "{colorNutral.gray-strong.200}"
           },
           "icon-primary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.500}"
+            "$value": "{colorBrand.botemania.primary.500}"
           },
           "icon-secondary": {
             "$type": "color",
-            "$value": "{color-brand.jackpotjoy.secondary.500}"
+            "$value": "{colorBrand.jackpotjoy.secondary.500}"
           },
           "icon-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.500}"
+            "$value": "{colorAlerts.positive.500}"
           },
           "icon-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.500}"
+            "$value": "{colorAlerts.negative.500}"
           },
           "icon-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.500}"
+            "$value": "{colorAlerts.warning.500}"
           },
           "icon-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.400}"
+            "$value": "{colorNutral.gray-strong.400}"
           }
         },
         "hover": {
           "icon-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.600}"
+            "$value": "{colorNutral.gray-strong.600}"
           },
           "icon-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.600}"
+            "$value": "{colorBrand.botemania.primary.600}"
           },
           "icon-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.600}"
+            "$value": "{colorBrand.botemania.secondary.600}"
           },
           "icon-hover-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.600}"
+            "$value": "{colorAlerts.positive.600}"
           },
           "icon-hover-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.600}"
+            "$value": "{colorAlerts.negative.600}"
           },
           "icon-hover-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.600}"
+            "$value": "{colorAlerts.warning.600}"
           }
         }
       },
       "background": {
         "background-fill-surface": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         },
         "background-fill-elevations1": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "background-fill-elevation2": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-text-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-text-dark-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-text-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-text-gray-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.600}"
+            "$value": "{colorNutral.gray-soft.600}"
           },
           "component-text-primary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.500}"
+            "$value": "{colorBrand.botemania.primary.500}"
           },
           "component-text-primary-hover": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.600}"
+            "$value": "{colorBrand.botemania.primary.600}"
           },
           "component-text-secondary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.500}"
+            "$value": "{colorBrand.botemania.secondary.500}"
           },
           "component-text-secondary-hover": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.600}"
+            "$value": "{colorBrand.botemania.secondary.600}"
           },
           "component-text-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.400}"
+            "$value": "{colorNutral.gray-strong.400}"
           }
         },
         "fill": {
           "component-fill-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-fill-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-fill-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           },
           "component-fill-primary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.500}"
+            "$value": "{colorBrand.botemania.primary.500}"
           },
           "component-fill-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.50}"
+            "$value": "{colorBrand.botemania.primary.50}"
           },
           "component-fill-secondary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.500}"
+            "$value": "{colorBrand.botemania.secondary.500}"
           },
           "component-fill-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.50}"
+            "$value": "{colorBrand.botemania.secondary.50}"
           },
           "component-fill-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.25}"
+            "$value": "{colorNutral.gray-strong.25}"
           },
           "component-fill-primary-dark": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.800}"
+            "$value": "{colorBrand.botemania.primary.800}"
           },
           "component-fill-secondary-dark": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.800}"
+            "$value": "{colorBrand.botemania.secondary.800}"
           },
           "component-fill-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-fill-gray-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.gray-soft-900}"
+            "$value": "{colorNutral.gray-soft.gray-soft-900}"
           },
           "component-fill-gray-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           }
         },
         "border": {
           "component-border-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-border-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-border-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.200}"
+            "$value": "{colorNutral.gray-soft.200}"
           },
           "component-border-primary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.500}"
+            "$value": "{colorBrand.botemania.primary.500}"
           },
           "component-border-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.100}"
+            "$value": "{colorBrand.botemania.primary.100}"
           },
           "component-border-secondary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.500}"
+            "$value": "{colorBrand.botemania.secondary.500}"
           },
           "component-border-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.100}"
+            "$value": "{colorBrand.botemania.secondary.100}"
           },
           "component-border-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.50}"
+            "$value": "{colorNutral.gray-strong.50}"
           }
         },
         "hover": {
           "component-hover-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-hover-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.100}"
+            "$value": "{colorNutral.gray-soft.100}"
           },
           "component-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.900}"
+            "$value": "{colorNutral.gray-strong.900}"
           },
           "component-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.600}"
+            "$value": "{colorBrand.botemania.primary.600}"
           },
           "component-hover-primary-light": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.400}"
+            "$value": "{colorBrand.botemania.primary.400}"
           },
           "component-hover-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.botemania.primary.50}"
+            "$value": "{colorBrand.botemania.primary.50}"
           },
           "component-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.600}"
+            "$value": "{colorBrand.botemania.secondary.600}"
           },
           "component-hover-secondary-light": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.400}"
+            "$value": "{colorBrand.botemania.secondary.400}"
           },
           "component-hover-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.botemania.secondary.50}"
+            "$value": "{colorBrand.botemania.secondary.50}"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.negative.500}"
+          "$value": "{colorAlerts.negative.500}"
         },
         "Error-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.negative.50}"
+          "$value": "{colorAlerts.negative.50}"
         },
         "Warning-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.warning.500}"
+          "$value": "{colorAlerts.warning.500}"
         },
         "Warning-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.warning.50}"
+          "$value": "{colorAlerts.warning.50}"
         },
         "Success-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.positive.500}"
+          "$value": "{colorAlerts.positive.500}"
         },
         "Success-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.positive.50}"
+          "$value": "{colorAlerts.positive.50}"
         },
         "Info-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.info.600}"
+          "$value": "{colorAlerts.info.600}"
         },
         "Info-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.info.50}"
+          "$value": "{colorAlerts.info.50}"
         },
         "alert-fill-new": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         }
       }
     },
-    "top nav": {
+    "topNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-primary}"
+          "$value": "{colorStyles.icon.default.icon-primary}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-primary}"
+          "$value": "{colorStyles.icon.default.icon-primary}"
         }
       },
       "text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-soft}"
+          "$value": "{colorStyles.component.text.component-text-soft}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-primary}"
+          "$value": "{colorStyles.component.text.component-text-primary}"
         }
       }
     },
-    "bottom nav": {
+    "bottomNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary}"
+          "$value": "{colorStyles.component.fill.component-fill-primary}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary-soft}"
+          "$value": "{colorStyles.component.fill.component-fill-primary-soft}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-light}"
+          "$value": "{colorStyles.component.fill.component-fill-light}"
         }
       },
       "Text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary-soft}"
+          "$value": "{colorStyles.component.fill.component-fill-primary-soft}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-light}"
+          "$value": "{colorStyles.component.fill.component-fill-light}"
         }
       }
     },
-    "input field": {
-      "placeholder text xolor": {
+    "inputfield": {
+      "placeholder-text-color": {
         "$type": "color",
-        "$value": "{color styles.component.text.component-text-soft}"
+        "$value": "{colorStyles.component.text.component-text-soft}"
       },
-      "border color inactive": {
+      "border-color-inactive": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark-soft}"
+        "$value": "{colorStyles.component.border.component-border-dark-soft}"
       },
-      "border color active": {
+      "border-color-active": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark}"
+        "$value": "{colorStyles.component.border.component-border-dark}"
       },
       "y-padding": {
         "$type": "number",
@@ -3189,42 +3189,42 @@
       },
       "radius": {
         "$type": "number",
-        "$value": "{radius.radius-sm-4x}"
+        "$value": "{radius.sm-4x}"
       },
       "height": {
         "$type": "number",
         "$value": "{numbers.48px}"
       }
     },
-    "top nav combined": {
+    "topNavCombined": {
       "Background": {
         "color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary}"
+          "$value": "{colorStyles.component.fill.component-fill-primary}"
         }
       },
       "Icon": {
         "icon color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         },
         "icon color active": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         }
       },
       "Text": {
         "text color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         },
         "text color active": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         }
       }
     },
-    "registration stepper": {
+    "registrationStepper": {
       "progress": {
         "color": {
           "$type": "color",
@@ -3232,453 +3232,453 @@
         }
       }
     },
-    "text styles": {
+    "textStyles": {
       "headings": {
         "h1": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.28px(1,65rem)}",
+            "$value": "{fontSize.28px}",
             "$description": "Page Titles Only"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.44px}"
+            "$value": "{lineHeight.44px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h2": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.24px(1,5rem)}",
+            "$value": "{fontSize.24px}",
             "$description": "Betslip Modal Title\nChild Page Titles"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.36px}"
+            "$value": "{lineHeight.36px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h3": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.22px(1,375rem)}"
+            "$value": "{fontSize.22px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.30px}"
+            "$value": "{lineHeight.30px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h4": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
           "Line Height": {
             "$type": "number",
-            "$value": "{line height.28px}"
+            "$value": "{lineHeight.28px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h5": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.26px}"
+            "$value": "{lineHeight.26px}"
           },
           "Letter Spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h6": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "body": {
         "body default": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           }
         },
         "body large": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body large bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "tiny": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "font family": {
         "$type": "text",
-        "$value": "{font-family.BTM-Kumbh Sans}"
+        "$value": "{fontFamily.BTM-Kumbh Sans}"
       },
       "caption": {
         "caption main": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption mmall": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
           "Size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "alert": {
         "alert title": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "alert mesage": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       }
     },
-    "button styles": {
+    "buttonStyles": {
       "font-weight": {
-        "font-weight-allBtn": {
+        "bold": {
           "$type": "text",
           "$value": "{Font._Weight.Bold}"
         }
       },
       "radius": {
-        "radius-largeBtn": {
+        "large": {
           "$type": "number",
-          "$value": "{radius.radius-sm-4x}"
+          "$value": "{radius.sm-4x}"
         },
-        "radius-mediumBtn": {
+        "medium": {
           "$type": "number",
-          "$value": "{radius.radius-sm-3x}"
+          "$value": "{radius.sm-3x}"
         },
-        "radius-small": {
+        "small": {
           "$type": "number",
-          "$value": "{radius.radius-sm-2x}"
+          "$value": "{radius.sm-2x}"
         }
       },
       "padding": {
-        "y-padding-largeBtn": {
+        "y-large": {
           "$type": "number",
           "$value": "{padding.padding-12px}"
         },
-        "x-padding-largeBtn": {
+        "x-large": {
           "$type": "number",
           "$value": "{padding.padding-16px}"
         },
-        "y-padding-mediumBtn": {
+        "y-medium": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         },
-        "y-padding-smallBtn": {
+        "y-small": {
           "$type": "number",
           "$value": "{padding.padding-6px}"
         },
-        "x-padding-mediumBtn": {
+        "x-medium": {
           "$type": "number",
           "$value": "{padding.padding-14px}"
         },
-        "x-padding-smallBtn": {
+        "x-small": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         }
       },
       "font-size": {
-        "font-size-large": {
+        "large": {
           "$type": "number",
-          "$value": "{font size.14px(0,875rem)}"
+          "$value": "{fontSize.14px}"
         },
-        "font-size-medium": {
+        "medium": {
           "$type": "number",
-          "$value": "{font size.13px(0,8125rem)}"
+          "$value": "{fontSize.13px}"
         },
-        "font-size-small": {
+        "small": {
           "$type": "number",
-          "$value": "{font size.12px(0,75rem)}"
+          "$value": "{fontSize.12px}"
         }
       },
       "height": {
-        "height-largeBtn": {
+        "large": {
           "$type": "number",
           "$value": "{numbers.48px}"
         },
-        "height-mediumBtn": {
+        "medium": {
           "$type": "number",
           "$value": "{numbers.40px}"
         },
-        "height-smallBtn": {
+        "small": {
           "$type": "number",
           "$value": "{numbers.32px}"
         }
@@ -3699,410 +3699,410 @@
     }
   },
   "Theme/DoubleBubble": {
-    "color styles": {
+    "colorStyles": {
       "typography": {
         "heading": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "heading-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-promary": {
           "$type": "color",
-          "$value": "{color-brand.doublebubble.primary.900}"
+          "$value": "{colorBrand.doublebubble.primary.900}"
         },
         "caption-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "caption-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.500}"
+          "$value": "{colorNutral.gray-soft.500}"
         },
         "body": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.900}"
+          "$value": "{colorNutral.gray-strong.900}"
         },
         "body-light": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "body-soft": {
           "$type": "color",
-          "$value": "{color-nutral.gray-strong.100}"
+          "$value": "{colorNutral.gray-strong.100}"
         },
         "heading-primary": {
           "$type": "color",
-          "$value": "{color-brand.doublebubble.primary.600}"
+          "$value": "{colorBrand.doublebubble.primary.600}"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "icon-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.200}"
+            "$value": "{colorNutral.gray-strong.200}"
           },
           "icon-primary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.500}"
+            "$value": "{colorBrand.doublebubble.primary.500}"
           },
           "icon-secondary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.500}"
+            "$value": "{colorBrand.doublebubble.secondary.500}"
           },
           "icon-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.500}"
+            "$value": "{colorAlerts.positive.500}"
           },
           "icon-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.500}"
+            "$value": "{colorAlerts.negative.500}"
           },
           "icon-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.500}"
+            "$value": "{colorAlerts.warning.500}"
           },
           "icon-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.400}"
+            "$value": "{colorNutral.gray-strong.400}"
           }
         },
         "hover": {
           "icon-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "icon-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.600}"
+            "$value": "{colorNutral.gray-strong.600}"
           },
           "icon-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.600}"
+            "$value": "{colorBrand.doublebubble.primary.600}"
           },
           "icon-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.600}"
+            "$value": "{colorBrand.doublebubble.secondary.600}"
           },
           "icon-hover-positive": {
             "$type": "color",
-            "$value": "{color-alerts.positive.600}"
+            "$value": "{colorAlerts.positive.600}"
           },
           "icon-hover-negative": {
             "$type": "color",
-            "$value": "{color-alerts.negative.600}"
+            "$value": "{colorAlerts.negative.600}"
           },
           "icon-hover-warning": {
             "$type": "color",
-            "$value": "{color-alerts.warning.600}"
+            "$value": "{colorAlerts.warning.600}"
           }
         }
       },
       "background": {
         "background-fill-surface": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         },
         "background-fill-elevations1": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         },
         "background-fill-elevation2": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-text-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-text-dark-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-text-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-text-gray-hover": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.600}"
+            "$value": "{colorNutral.gray-soft.600}"
           },
           "component-text-primary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.500}"
+            "$value": "{colorBrand.doublebubble.primary.500}"
           },
           "component-text-primary-hover": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.600}"
+            "$value": "{colorBrand.doublebubble.primary.600}"
           },
           "component-text-secondary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.500}"
+            "$value": "{colorBrand.doublebubble.secondary.500}"
           },
           "component-text-secondary-hover": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.600}"
+            "$value": "{colorBrand.doublebubble.secondary.600}"
           },
           "component-text-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.400}"
+            "$value": "{colorNutral.gray-strong.400}"
           }
         },
         "fill": {
           "component-fill-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-fill-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-fill-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           },
           "component-fill-primary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.500}"
+            "$value": "{colorBrand.doublebubble.primary.500}"
           },
           "component-fill-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.50}"
+            "$value": "{colorBrand.doublebubble.primary.50}"
           },
           "component-fill-secondary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.500}"
+            "$value": "{colorBrand.doublebubble.secondary.500}"
           },
           "component-fill-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.50}"
+            "$value": "{colorBrand.doublebubble.secondary.50}"
           },
           "component-fill-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.25}"
+            "$value": "{colorNutral.gray-strong.25}"
           },
           "component-fill-primary-dark": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.800}"
+            "$value": "{colorBrand.doublebubble.primary.800}"
           },
           "component-fill-secondary-dark": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.800}"
+            "$value": "{colorBrand.doublebubble.secondary.800}"
           },
           "component-fill-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.500}"
+            "$value": "{colorNutral.gray-soft.500}"
           },
           "component-fill-gray-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.gray-soft-900}"
+            "$value": "{colorNutral.gray-soft.gray-soft-900}"
           },
           "component-fill-gray-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.50}"
+            "$value": "{colorNutral.gray-soft.50}"
           }
         },
         "border": {
           "component-border-light": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-border-dark": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.800}"
+            "$value": "{colorNutral.gray-strong.800}"
           },
           "component-border-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.200}"
+            "$value": "{colorNutral.gray-soft.200}"
           },
           "component-border-primary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.500}"
+            "$value": "{colorBrand.doublebubble.primary.500}"
           },
           "component-border-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.100}"
+            "$value": "{colorBrand.doublebubble.primary.100}"
           },
           "component-border-secondary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.500}"
+            "$value": "{colorBrand.doublebubble.secondary.500}"
           },
           "component-border-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.100}"
+            "$value": "{colorBrand.doublebubble.secondary.100}"
           },
           "component-border-disabled": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.50}"
+            "$value": "{colorNutral.gray-strong.50}"
           }
         },
         "hover": {
           "component-hover-light": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.700}"
+            "$value": "{colorNutral.gray-strong.700}"
           },
           "component-hover-dark": {
             "$type": "color",
-            "$value": "{color-nutral.white.main}"
+            "$value": "{colorNutral.white.main}"
           },
           "component-hover-dark-soft": {
             "$type": "color",
-            "$value": "{color-nutral.gray-soft.100}"
+            "$value": "{colorNutral.gray-soft.100}"
           },
           "component-hover-gray": {
             "$type": "color",
-            "$value": "{color-nutral.gray-strong.900}"
+            "$value": "{colorNutral.gray-strong.900}"
           },
           "component-hover-primary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.600}"
+            "$value": "{colorBrand.doublebubble.primary.600}"
           },
           "component-hover-primary-light": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.400}"
+            "$value": "{colorBrand.doublebubble.primary.400}"
           },
           "component-hover-primary-soft": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.primary.50}"
+            "$value": "{colorBrand.doublebubble.primary.50}"
           },
           "component-hover-secondary": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.600}"
+            "$value": "{colorBrand.doublebubble.secondary.600}"
           },
           "component-hover-secondary-light": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.400}"
+            "$value": "{colorBrand.doublebubble.secondary.400}"
           },
           "component-hover-secondary-soft": {
             "$type": "color",
-            "$value": "{color-brand.doublebubble.secondary.50}"
+            "$value": "{colorBrand.doublebubble.secondary.50}"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.negative.500}"
+          "$value": "{colorAlerts.negative.500}"
         },
         "Error-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.negative.50}"
+          "$value": "{colorAlerts.negative.50}"
         },
         "Warning-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.warning.500}"
+          "$value": "{colorAlerts.warning.500}"
         },
         "Warning-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.warning.50}"
+          "$value": "{colorAlerts.warning.50}"
         },
         "Success-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.positive.500}"
+          "$value": "{colorAlerts.positive.500}"
         },
         "Success-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.positive.50}"
+          "$value": "{colorAlerts.positive.50}"
         },
         "Info-text-dark": {
           "$type": "color",
-          "$value": "{color-alerts.info.500}"
+          "$value": "{colorAlerts.info.500}"
         },
         "Info-fill-light": {
           "$type": "color",
-          "$value": "{color-alerts.info.50}"
+          "$value": "{colorAlerts.info.50}"
         },
         "alert-fill-new": {
           "$type": "color",
-          "$value": "{color-nutral.gray-soft.50}"
+          "$value": "{colorNutral.gray-soft.50}"
         }
       }
     },
-    "top nav": {
+    "topNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color-nutral.white.main}"
+          "$value": "{colorNutral.white.main}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-secondary}"
+          "$value": "{colorStyles.icon.default.icon-secondary}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-secondary}"
+          "$value": "{colorStyles.icon.default.icon-secondary}"
         }
       },
       "text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-soft}"
+          "$value": "{colorStyles.component.text.component-text-soft}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-secondary}"
+          "$value": "{colorStyles.component.text.component-text-secondary}"
         }
       }
     },
-    "bottom nav": {
+    "bottomNav": {
       "background": {
         "color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-secondary-soft}"
+          "$value": "{colorStyles.component.fill.component-fill-secondary-soft}"
         }
       },
       "icon": {
-        "icon color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-gray}"
+          "$value": "{colorStyles.icon.default.icon-gray}"
         },
-        "icon color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-secondary-dark}"
+          "$value": "{colorStyles.component.fill.component-fill-secondary-dark}"
         }
       },
       "Text": {
-        "text color": {
+        "default-color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-gray-hover}"
+          "$value": "{colorStyles.component.text.component-text-gray-hover}"
         },
-        "text color active": {
+        "active-color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-secondary-dark}"
+          "$value": "{colorStyles.component.fill.component-fill-secondary-dark}"
         }
       }
     },
-    "input field": {
-      "placeholder text xolor": {
+    "inputfield": {
+      "placeholder-text-color": {
         "$type": "color",
-        "$value": "{color styles.component.text.component-text-soft}"
+        "$value": "{colorStyles.component.text.component-text-soft}"
       },
-      "border color inactive": {
+      "border-color-inactive": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark-soft}"
+        "$value": "{colorStyles.component.border.component-border-dark-soft}"
       },
-      "border color active": {
+      "border-color-active": {
         "$type": "color",
-        "$value": "{color styles.component.border.component-border-dark}"
+        "$value": "{colorStyles.component.border.component-border-dark}"
       },
       "y-padding": {
         "$type": "number",
@@ -4114,42 +4114,42 @@
       },
       "radius": {
         "$type": "number",
-        "$value": "{radius.radius-sm-4x}"
+        "$value": "{radius.sm-4x}"
       },
       "height": {
         "$type": "number",
         "$value": "{numbers.48px}"
       }
     },
-    "top nav combined": {
+    "topNavCombined": {
       "Background": {
         "color": {
           "$type": "color",
-          "$value": "{color styles.component.fill.component-fill-primary}"
+          "$value": "{colorStyles.component.fill.component-fill-primary}"
         }
       },
       "Icon": {
         "icon color": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         },
         "icon color active": {
           "$type": "color",
-          "$value": "{color styles.icon.default.icon-light}"
+          "$value": "{colorStyles.icon.default.icon-light}"
         }
       },
       "Text": {
         "text color": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         },
         "text color active": {
           "$type": "color",
-          "$value": "{color styles.component.text.component-text-light}"
+          "$value": "{colorStyles.component.text.component-text-light}"
         }
       }
     },
-    "registration stepper": {
+    "registrationStepper": {
       "progress": {
         "color": {
           "$type": "color",
@@ -4157,453 +4157,453 @@
         }
       }
     },
-    "text styles": {
+    "textStyles": {
       "headings": {
         "h1": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.28px(1,65rem)}",
+            "$value": "{fontSize.28px}",
             "$description": "Page Titles Only"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.44px}"
+            "$value": "{lineHeight.44px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h2": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.24px(1,5rem)}",
+            "$value": "{fontSize.24px}",
             "$description": "Betslip Modal Title\nChild Page Titles"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.36px}"
+            "$value": "{lineHeight.36px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h3": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.22px(1,375rem)}"
+            "$value": "{fontSize.22px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.30px}"
+            "$value": "{lineHeight.30px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h4": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
           "Line Height": {
             "$type": "number",
-            "$value": "{line height.28px}"
+            "$value": "{lineHeight.28px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h5": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.26px}"
+            "$value": "{lineHeight.26px}"
           },
           "Letter Spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "h6": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Font Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "body": {
         "body default": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           }
         },
         "body large": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "body large bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.18px(1,125rem)}"
+            "$value": "{fontSize.18px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.24px}"
+            "$value": "{lineHeight.24px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "tiny": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.12px(0,75rem)}"
+            "$value": "{fontSize.12px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "font family": {
         "$type": "text",
-        "$value": "{font-family.DBB-Outfit}"
+        "$value": "{fontFamily.DBB-Outfit}"
       },
       "caption": {
         "caption main": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.15px(0,9375rem)}"
+            "$value": "{fontSize.15px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.20px}"
+            "$value": "{lineHeight.20px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption mmall": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "caption small bold": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
           "Size": {
             "$type": "number",
-            "$value": "{font size.14px(0,875rem)}"
+            "$value": "{fontSize.14px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       },
       "alert": {
         "alert title": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Bold}"
+            "$value": "{fontWeight.Bold}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         },
         "alert mesage": {
-          "Weight": {
+          "weight": {
             "$type": "text",
-            "$value": "{font weight.Regular}"
+            "$value": "{fontWeight.Regular}"
           },
-          "Size": {
+          "font-size": {
             "$type": "number",
-            "$value": "{font size.16px(1rem)}"
+            "$value": "{fontSize.16px}"
           },
-          "Line Height": {
+          "line-height": {
             "$type": "number",
-            "$value": "{line height.18px}"
+            "$value": "{lineHeight.18px}"
           },
-          "Letter Spacing": {
+          "letter-spacing": {
             "$type": "number",
-            "$value": "{letter spacing.0px(none)}"
+            "$value": "{letterSpacing.none}"
           }
         }
       }
     },
-    "button styles": {
+    "buttonStyles": {
       "font-weight": {
-        "font-weight-allBtn": {
+        "bold": {
           "$type": "text",
           "$value": "{Font._Weight.Bold}"
         }
       },
       "radius": {
-        "radius-largeBtn": {
+        "large": {
           "$type": "number",
-          "$value": "{radius.radius-infinity}"
+          "$value": "{radius.infinity}"
         },
-        "radius-mediumBtn": {
+        "medium": {
           "$type": "number",
-          "$value": "{radius.radius-infinity}"
+          "$value": "{radius.infinity}"
         },
-        "radius-small": {
+        "small": {
           "$type": "number",
-          "$value": "{radius.radius-infinity}"
+          "$value": "{radius.infinity}"
         }
       },
       "padding": {
-        "y-padding-largeBtn": {
+        "y-large": {
           "$type": "number",
           "$value": "{padding.padding-12px}"
         },
-        "x-padding-largeBtn": {
+        "x-large": {
           "$type": "number",
           "$value": "{padding.padding-16px}"
         },
-        "y-padding-mediumBtn": {
+        "y-medium": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         },
-        "y-padding-smallBtn": {
+        "y-small": {
           "$type": "number",
           "$value": "{padding.padding-6px}"
         },
-        "x-padding-mediumBtn": {
+        "x-medium": {
           "$type": "number",
           "$value": "{padding.padding-14px}"
         },
-        "x-padding-smallBtn": {
+        "x-small": {
           "$type": "number",
           "$value": "{padding.padding-10px}"
         }
       },
       "font-size": {
-        "font-size-large": {
+        "large": {
           "$type": "number",
-          "$value": "{font size.14px(0,875rem)}"
+          "$value": "{fontSize.14px}"
         },
-        "font-size-medium": {
+        "medium": {
           "$type": "number",
-          "$value": "{font size.13px(0,8125rem)}"
+          "$value": "{fontSize.13px}"
         },
-        "font-size-small": {
+        "small": {
           "$type": "number",
-          "$value": "{font size.12px(0,75rem)}"
+          "$value": "{fontSize.12px}"
         }
       },
       "height": {
-        "height-largeBtn": {
+        "large": {
           "$type": "number",
           "$value": "{numbers.48px}"
         },
-        "height-mediumBtn": {
+        "medium": {
           "$type": "number",
           "$value": "{numbers.40px}"
         },
-        "height-smallBtn": {
+        "small": {
           "$type": "number",
           "$value": "{numbers.32px}"
         }
@@ -4624,7 +4624,7 @@
     }
   },
   "Properties/properties": {
-    "font weight": {
+    "fontWeight": {
       "Bold": {
         "$type": "text",
         "$value": "Bold"
@@ -4646,7 +4646,7 @@
         "$value": "Regular"
       }
     },
-    "line height": {
+    "lineHeight": {
       "Auto": {
         "$type": "text",
         "$value": "Auto"
@@ -4855,55 +4855,55 @@
       }
     },
     "radius": {
-      "radius-none": {
+      "none": {
         "$type": "number",
         "$value": "{numbers.null}"
       },
-      "radius-xsm": {
+      "xsm": {
         "$type": "number",
         "$value": "{numbers.1px}"
       },
-      "radius-sm": {
+      "sm": {
         "$type": "number",
         "$value": "{numbers.4px}"
       },
-      "radius-sm-2x": {
+      "sm-2x": {
         "$type": "number",
         "$value": "{numbers.4px}"
       },
-      "radius-sm-3x": {
+      "sm-3x": {
         "$type": "number",
         "$value": "{numbers.6px}"
       },
-      "radius-sm-4x": {
+      "sm-4x": {
         "$type": "number",
         "$value": "{numbers.8px}"
       },
-      "radius-md": {
+      "md": {
         "$type": "number",
         "$value": "{numbers.12px}"
       },
-      "radius-md-2x": {
+      "md-2x": {
         "$type": "number",
         "$value": "{numbers.16px}"
       },
-      "radius-md-3x": {
+      "md-3x": {
         "$type": "number",
         "$value": "{numbers.18px}"
       },
-      "radius-md-lg": {
+      "lg": {
         "$type": "number",
         "$value": "{numbers.20px}"
       },
-      "radius-md-lg-2x": {
+      "lg-2x": {
         "$type": "number",
         "$value": "{numbers.24px}"
       },
-      "radius-md-lg-3x": {
+      "lg-3x": {
         "$type": "number",
         "$value": "{numbers.32px}"
       },
-      "radius-infinity": {
+      "infinity": {
         "$type": "number",
         "$value": "{numbers.infinity}"
       }
@@ -4934,102 +4934,102 @@
         "$value": "{numbers.8px}"
       }
     },
-    "font size": {
-      "32px(2rem)": {
+    "fontSize": {
+      "32px": {
         "$type": "number",
         "$value": "{numbers.32px}"
       },
-      "24px(1,5rem)": {
+      "24px": {
         "$type": "number",
         "$value": "{numbers.24px}"
       },
-      "20px(1,25rem)": {
+      "20px": {
         "$type": "number",
         "$value": "{numbers.20px}"
       },
-      "18px(1,125rem)": {
+      "18px": {
         "$type": "number",
         "$value": "{numbers.18px}"
       },
-      "16px(1rem)": {
+      "16px": {
         "$type": "number",
         "$value": "{numbers.16px}"
       },
-      "15px(0,9375rem)": {
+      "15px": {
         "$type": "number",
         "$value": "{numbers.15px}"
       },
-      "36px(2,25rem)": {
+      "36px": {
         "$type": "number",
         "$value": "{numbers.36px}"
       },
-      "14px(0,875rem)": {
+      "14px": {
         "$type": "number",
         "$value": "{numbers.14px}"
       },
-      "96px(6rem)": {
+      "96px": {
         "$type": "number",
         "$value": "{numbers.96px}"
       },
-      "28px(1,65rem)": {
+      "28px": {
         "$type": "number",
         "$value": "{numbers.28px}"
       },
-      "60px(3,75rem)": {
+      "60px": {
         "$type": "number",
         "$value": "{numbers.60px}"
       },
-      "40px(2,5rem)": {
+      "40px": {
         "$type": "number",
         "$value": "{numbers.40px}"
       },
-      "44px(2,75rem)": {
+      "44px": {
         "$type": "number",
         "$value": "{numbers.44px}"
       },
-      "48px(3rem)": {
+      "48px": {
         "$type": "number",
         "$value": "{numbers.48px}"
       },
-      "12px(0,75rem)": {
+      "12px": {
         "$type": "number",
         "$value": "{numbers.12px}"
       },
-      "13px(0,8125rem)": {
+      "13px": {
         "$type": "number",
         "$value": "{numbers.13px}"
       },
-      "34px(2,125rem)": {
+      "34px": {
         "$type": "number",
         "$value": "{numbers.34px}"
       },
-      "22px(1,375rem)": {
+      "22px": {
         "$type": "number",
         "$value": "{numbers.22px}"
       },
-      "11px(0,5rem)": {
+      "11px": {
         "$type": "number",
         "$value": "{numbers.12px}"
       }
     },
-    "letter spacing": {
-      "minus1px(tight)": {
+    "letterSpacing": {
+      "minus1px": {
         "$type": "number",
         "$value": "{numbers.minus1px}"
       },
-      "2px(loose)": {
+      "loose": {
         "$type": "number",
         "$value": "{numbers.2px}"
       },
-      "0px(none)": {
+      "none": {
         "$type": "number",
         "$value": "{numbers.null}"
       },
-      "6px(wide)": {
+      "wide": {
         "$type": "number",
         "$value": "{numbers.6px}"
       },
-      "1px(airy)": {
+      "airy": {
         "$type": "number",
         "$value": "{numbers.1px}"
       }
