@@ -4,12 +4,12 @@ const path = require('path');
 module.exports = {
   source: ['tokens/btokens.fixed.json'],
   platforms: {
-    css: {
-      transformGroup: 'css',
-      buildPath: 'build/css/',
+    scss: {
+      transformGroup: 'scss',
+      buildPath: 'build/scss/',
       files: [{
-        destination: 'variables.css',
-        format: 'css/variables',
+        destination: 'variables.scss',
+        format: 'scss/variables',
         options: {
           outputReferences: true
         }
