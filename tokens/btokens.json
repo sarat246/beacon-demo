@@ -1637,7 +1637,7 @@
           }
         }
       },
-      "font family": {
+      "fontfamily": {
         "value": "{fontFamily.BB-Bally Thrill}",
         "type": "text"
       },
@@ -2562,7 +2562,7 @@
           }
         }
       },
-      "font family": {
+      "fontfamily": {
         "value": "{fontFamily.JPJ-Nunito Sans}",
         "type": "text"
       },
@@ -2682,7 +2682,7 @@
     "buttonStyles": {
       "fontWeight": {
         "bold": {
-          "value": "{Font._Weight.Bold}",
+          "value": "{fontWeight.bold}",
           "type": "text"
         }
       },
@@ -3487,7 +3487,7 @@
           }
         }
       },
-      "font family": {
+      "fontfamily": {
         "value": "{fontFamily.BTM-Kumbh Sans}",
         "type": "text"
       },
@@ -3607,7 +3607,7 @@
     "buttonStyles": {
       "fontWeight": {
         "bold": {
-          "value": "{Font._Weight.Bold}",
+          "value": "{fontWeight.bold}",
           "type": "text"
         }
       },
@@ -4412,7 +4412,7 @@
           }
         }
       },
-      "font family": {
+      "fontfamily": {
         "value": "{fontFamily.DBB-Outfit}",
         "type": "text"
       },
@@ -4532,7 +4532,7 @@
     "buttonStyles": {
       "fontWeight": {
         "bold": {
-          "value": "{Font._Weight.Bold}",
+          "value": "{fontWeight.bold}",
           "type": "text"
         }
       },
