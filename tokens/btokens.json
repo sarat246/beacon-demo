@@ -927,6 +927,7 @@
     "color styles": {
       "typography": {
         "heading": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-strong.900}",
           "type": "color"
         },
@@ -960,12 +961,48 @@
         },
         "heading-primary": {
           "value": "{color-brand.ballybet.primary.600}",
+=======
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "heading-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-promary": {
+          "value": "{colorBrand.ballybet.primary.900}",
+          "type": "color"
+        },
+        "caption-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-soft": {
+          "value": "{colorNeutral.graySoft.500}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "body-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "body-soft": {
+          "value": "{colorNeutral.graySoft.500}",
+          "type": "color"
+        },
+        "headingPrimary": {
+          "value": "{colorBrand.ballybet.primary.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -999,11 +1036,47 @@
           },
           "icon-disabled": {
             "value": "{color-nutral.gray-strong.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "icon-gray": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "icon-primary": {
+            "value": "{colorBrand.ballybet.primary.500}",
+            "type": "color"
+          },
+          "icon-secondary": {
+            "value": "{colorBrand.ballybet.secondary.500}",
+            "type": "color"
+          },
+          "icon-positive": {
+            "value": "{colorAlerts.positive.500}",
+            "type": "color"
+          },
+          "icon-negative": {
+            "value": "{colorAlerts.negative.500}",
+            "type": "color"
+          },
+          "icon-warning": {
+            "value": "{colorAlerts.warning.500}",
+            "type": "color"
+          },
+          "icon-disabled": {
+            "value": "{colorNeutral.grayStrong.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "icon-hover-dark": {
+<<<<<<< HEAD
             "value": "{color-nutral.gray-strong.900}",
             "type": "color"
           },
@@ -1029,12 +1102,40 @@
           },
           "icon-hover-warning": {
             "value": "{color-alerts.warning.600}",
+=======
+            "value": "{colorNeutral.grayStrong.900}",
+            "type": "color"
+          },
+          "icon-hover-gray": {
+            "value": "{colorNeutral.grayStrong.600}",
+            "type": "color"
+          },
+          "icon-hover-primary": {
+            "value": "{colorBrand.ballybet.primary.600}",
+            "type": "color"
+          },
+          "icon-hover-secondary": {
+            "value": "{colorBrand.ballybet.secondary.600}",
+            "type": "color"
+          },
+          "icon-hover-positive": {
+            "value": "{colorAlerts.positive.600}",
+            "type": "color"
+          },
+          "icon-hover-negative": {
+            "value": "{colorAlerts.negative.600}",
+            "type": "color"
+          },
+          "icon-hover-warning": {
+            "value": "{colorAlerts.warning.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "background": {
         "background-fill-surface": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-soft.50}",
           "type": "color"
         },
@@ -1044,12 +1145,24 @@
         },
         "background-fill-elevation2": {
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.graySoft.50}",
+          "type": "color"
+        },
+        "background-fill-elevations1": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "background-fill-elevation2": {
+          "value": "{colorNeutral.white.main}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -1087,11 +1200,51 @@
           },
           "component-text-disabled": {
             "value": "{color-nutral.gray-strong.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-text-dark": {
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-text-dark-hover": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-text-soft": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-text-gray-hover": {
+            "value": "{colorNeutral.graySoft.600}",
+            "type": "color"
+          },
+          "component-text-primary": {
+            "value": "{colorBrand.ballybet.primary.500}",
+            "type": "color"
+          },
+          "component-text-primary-hover": {
+            "value": "{colorBrand.ballybet.primary.600}",
+            "type": "color"
+          },
+          "component-text-secondary": {
+            "value": "{colorBrand.ballybet.secondary.500}",
+            "type": "color"
+          },
+          "component-text-secondary-hover": {
+            "value": "{colorBrand.ballybet.secondary.600}",
+            "type": "color"
+          },
+          "component-text-disabled": {
+            "value": "{colorNeutral.grayStrong.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "fill": {
           "component-fill-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -1141,11 +1294,63 @@
           },
           "component-fill-gray-light": {
             "value": "{color-nutral.gray-soft.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-fill-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-fill-dark-soft": {
+            "value": "{colorNeutral.graySoft.50}",
+            "type": "color"
+          },
+          "component-fill-primary": {
+            "value": "{colorBrand.ballybet.primary.500}",
+            "type": "color"
+          },
+          "component-fill-primary-soft": {
+            "value": "{colorBrand.ballybet.primary.50}",
+            "type": "color"
+          },
+          "component-fill-secondary": {
+            "value": "{colorBrand.ballybet.secondary.500}",
+            "type": "color"
+          },
+          "component-fill-secondary-soft": {
+            "value": "{colorBrand.ballybet.secondary.50}",
+            "type": "color"
+          },
+          "component-fill-disabled": {
+            "value": "{colorNeutral.grayStrong.25}",
+            "type": "color"
+          },
+          "component-fill-primary-dark": {
+            "value": "{colorBrand.ballybet.primary.800}",
+            "type": "color"
+          },
+          "component-fill-secondary-dark": {
+            "value": "{colorBrand.ballybet.secondary.800}",
+            "type": "color"
+          },
+          "component-fill-gray": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-fill-gray-dark": {
+            "value": "{colorNeutral.graySoft.900}",
+            "type": "color"
+          },
+          "component-fill-gray-light": {
+            "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "border": {
           "component-border-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -1175,11 +1380,43 @@
           },
           "component-border-disabled": {
             "value": "{color-nutral.gray-strong.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-border-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-border-dark-soft": {
+            "value": "{colorNeutral.graySoft.200}",
+            "type": "color"
+          },
+          "component-border-primary": {
+            "value": "{colorBrand.ballybet.primary.500}",
+            "type": "color"
+          },
+          "component-border-primary-soft": {
+            "value": "{colorBrand.ballybet.primary.100}",
+            "type": "color"
+          },
+          "component-border-secondary": {
+            "value": "{colorBrand.ballybet.secondary.500}",
+            "type": "color"
+          },
+          "component-border-secondary-soft": {
+            "value": "{colorBrand.ballybet.secondary.100}",
+            "type": "color"
+          },
+          "component-border-disabled": {
+            "value": "{colorNeutral.grayStrong.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "component-hover-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -1217,12 +1454,52 @@
           },
           "component-hover-secondary-soft": {
             "value": "{color-brand.ballybet.secondary.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-hover-dark": {
+            "value": "{colorNeutral.grayStrong.600}",
+            "type": "color"
+          },
+          "component-hover-dark-soft": {
+            "value": "{colorNeutral.graySoft.100}",
+            "type": "color"
+          },
+          "component-hover-gray": {
+            "value": "{colorNeutral.graySoft.50}",
+            "type": "color"
+          },
+          "component-hover-primary": {
+            "value": "{colorBrand.ballybet.primary.600}",
+            "type": "color"
+          },
+          "component-hover-primary-light": {
+            "value": "{colorBrand.ballybet.primary.400}",
+            "type": "color"
+          },
+          "component-hover-primary-soft": {
+            "value": "{colorBrand.ballybet.primary.50}",
+            "type": "color"
+          },
+          "component-hover-secondary": {
+            "value": "{colorBrand.ballybet.secondary.600}",
+            "type": "color"
+          },
+          "component-hover-secondary-light": {
+            "value": "{colorBrand.ballybet.secondary.400}",
+            "type": "color"
+          },
+          "component-hover-secondary-soft": {
+            "value": "{colorBrand.ballybet.secondary.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
+<<<<<<< HEAD
           "value": "{color-alerts.negative.500}",
           "type": "color"
         },
@@ -1256,6 +1533,41 @@
         },
         "alert-fill-new": {
           "value": "{color-nutral.gray-soft.50}",
+=======
+          "value": "{colorAlerts.negative.500}",
+          "type": "color"
+        },
+        "Error-fill-light": {
+          "value": "{colorAlerts.negative.50}",
+          "type": "color"
+        },
+        "Warning-text-dark": {
+          "value": "{colorAlerts.warning.500}",
+          "type": "color"
+        },
+        "Warning-fill-light": {
+          "value": "{colorAlerts.warning.50}",
+          "type": "color"
+        },
+        "Success-text-dark": {
+          "value": "{colorAlerts.positive.500}",
+          "type": "color"
+        },
+        "Success-fill-light": {
+          "value": "{colorAlerts.positive.50}",
+          "type": "color"
+        },
+        "Info-text-dark": {
+          "value": "{colorAlerts.info.500}",
+          "type": "color"
+        },
+        "Info-fill-light": {
+          "value": "{colorAlerts.info.50}",
+          "type": "color"
+        },
+        "alert-fill-new": {
+          "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -1263,27 +1575,133 @@
     "top nav": {
       "background": {
         "color": {
+<<<<<<< HEAD
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.icon.default.icon-secondary}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.icon.default.icon-primary}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.text.component-text-secondary}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.text.component-text-primary}",
+          "type": "color"
+        }
+      }
+    },
+    "bottomNav": {
+      "background": {
+        "color": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.icon.default.icon-secondary}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.icon.default.icon-primary}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.text.component-text-secondary}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.text.component-text-primary}",
+          "type": "color"
+        }
+      }
+    },
+    "inputfield": {
+      "placeholder-text-color": {
+        "value": "{colorStyles.component.text.component-text-soft}",
+        "type": "color"
+      },
+      "border-color-inactive": {
+        "value": "{colorStyles.component.border.component-border-dark-soft}",
+        "type": "color"
+      },
+      "border-color-active": {
+        "value": "{colorStyles.component.border.component-border-dark}",
+        "type": "color"
+      },
+      "y-padding": {
+        "value": "{padding.8px}",
+        "type": "number"
+      },
+      "x-padding": {
+        "value": "{padding.16px}",
+        "type": "number"
+      },
+      "radius": {
+        "value": "{radius.smx4x}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{numbers.48px}",
+        "type": "number"
+      }
+    },
+    "topNavCombined": {
+      "background": {
+        "color": {
+          "value": "{colorStyles.component.fill.component-fill-primary}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "icon color": {
+<<<<<<< HEAD
           "value": "{color styles.icon.default.icon-secondary}",
           "type": "color"
         },
         "icon color active": {
           "value": "{color styles.icon.default.icon-primary}",
+=======
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        },
+        "icon color active": {
+          "value": "{colorStyles.icon.default.icon-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "text": {
         "text color": {
+<<<<<<< HEAD
           "value": "{color styles.component.text.component-text-secondary}",
           "type": "color"
         },
         "text color active": {
           "value": "{color styles.component.text.component-text-primary}",
+=======
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        },
+        "text color active": {
+          "value": "{colorStyles.component.text.component-text-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -1385,6 +1803,7 @@
     "text styles": {
       "headings": {
         "h1": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Narrow}",
             "type": "text"
@@ -1400,10 +1819,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.narrow}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.28px}",
+            "type": "number",
+            "description": "Page Titles Only"
+          },
+          "line-height": {
+            "value": "{lineHeight.44px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h2": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Narrow}",
             "type": "text"
@@ -1419,10 +1856,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.narrow}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.24px}",
+            "type": "number",
+            "description": "Betslip Modal Title\nChild Page Titles"
+          },
+          "line-height": {
+            "value": "{lineHeight.36px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h3": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -1437,10 +1892,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.22px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.30px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h4": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -1455,10 +1927,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "Line Height": {
+            "value": "{lineHeight.28px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h5": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -1473,10 +1962,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.26px}",
+            "type": "number"
+          },
+          "Letter Spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h6": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -1491,11 +1997,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "body": {
+<<<<<<< HEAD
         "body default": {
           "Weight": {
             "value": "{font weight.Regular}",
@@ -1529,10 +2052,46 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "default": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          }
+        },
+        "large": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "body small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -1565,10 +2124,45 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -1619,10 +2213,63 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "large-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "tiny": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -1637,10 +2284,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
+<<<<<<< HEAD
       "font family": {
         "value": "{font-family.BB-Bally Thrill}",
         "type": "text"
@@ -1715,11 +2379,88 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+      "fontfamily": {
+        "value": "{fontFamily.BB-Bally Thrill}",
+        "type": "text"
+      },
+      "caption": {
+        "main": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "smallBold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "Size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "alert": {
+<<<<<<< HEAD
         "alert title": {
           "Weight": {
             "value": "{font weight.Bold}",
@@ -1753,19 +2494,62 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "title": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "mesage": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       }
     },
+<<<<<<< HEAD
     "button styles": {
       "font-weight": {
         "font-weight-allBtn": {
           "value": "{Font._Weight.Bold}",
+=======
+    "buttonStyles": {
+      "fontWeight": {
+        "bold": {
+          "value": "{fontWeight.bold}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "text"
         }
       },
       "radius": {
+<<<<<<< HEAD
         "radius-largeBtn": {
           "value": "{radius.radius-sm-4x}",
           "type": "number"
@@ -1776,10 +2560,23 @@
         },
         "radius-small": {
           "value": "{radius.radius-sm-3x}",
+=======
+        "large": {
+          "value": "{radius.smx4x}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{radius.smx4x}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{radius.smx3x}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "padding": {
+<<<<<<< HEAD
         "y-padding-largeBtn": {
           "value": "{padding.padding-12px}",
           "type": "number"
@@ -1816,10 +2613,49 @@
         },
         "font-size-small": {
           "value": "{font size.12px(0,75rem)}",
+=======
+        "y-large": {
+          "value": "{padding.12px}",
+          "type": "number"
+        },
+        "x-large": {
+          "value": "{padding.16px}",
+          "type": "number"
+        },
+        "y-medium": {
+          "value": "{padding.10px}",
+          "type": "number"
+        },
+        "y-small": {
+          "value": "{padding.6px}",
+          "type": "number"
+        },
+        "x-medium": {
+          "value": "{padding.14px}",
+          "type": "number"
+        },
+        "x-small": {
+          "value": "{padding.10px}",
+          "type": "number"
+        }
+      },
+      "fontSize": {
+        "large": {
+          "value": "{fontSize.14px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{fontSize.13px}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{fontSize.12px}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "height": {
+<<<<<<< HEAD
         "height-largeBtn": {
           "value": "{numbers.48px}",
           "type": "number"
@@ -1829,6 +2665,17 @@
           "type": "number"
         },
         "height-smallBtn": {
+=======
+        "large": {
+          "value": "{numbers.48px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{numbers.40px}",
+          "type": "number"
+        },
+        "small": {
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "value": "{numbers.32px}",
           "type": "number"
         }
@@ -1852,6 +2699,7 @@
     "color styles": {
       "typography": {
         "heading": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-strong.900}",
           "type": "color"
         },
@@ -1885,12 +2733,48 @@
         },
         "heading-primary": {
           "value": "{color-brand.jackpotjoy.primary.600}",
+=======
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "heading-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-promary": {
+          "value": "{colorBrand.jackpotjoy.primary.900}",
+          "type": "color"
+        },
+        "caption-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-soft": {
+          "value": "{colorNeutral.graySoft.500}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "body-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "body-soft": {
+          "value": "{colorNeutral.grayStrong.100}",
+          "type": "color"
+        },
+        "headingPrimary": {
+          "value": "{colorBrand.jackpotjoy.primary.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -1924,11 +2808,47 @@
           },
           "icon-disabled": {
             "value": "{color-nutral.gray-strong.400}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "icon-gray": {
+            "value": "{colorNeutral.grayStrong.200}",
+            "type": "color"
+          },
+          "icon-primary": {
+            "value": "{colorBrand.jackpotjoy.primary.500}",
+            "type": "color"
+          },
+          "icon-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.500}",
+            "type": "color"
+          },
+          "icon-positive": {
+            "value": "{colorAlerts.positive.500}",
+            "type": "color"
+          },
+          "icon-negative": {
+            "value": "{colorAlerts.negative.500}",
+            "type": "color"
+          },
+          "icon-warning": {
+            "value": "{colorAlerts.warning.500}",
+            "type": "color"
+          },
+          "icon-disabled": {
+            "value": "{colorNeutral.grayStrong.400}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "icon-hover-dark": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -1954,12 +2874,40 @@
           },
           "icon-hover-warning": {
             "value": "{color-alerts.warning.600}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-hover-gray": {
+            "value": "{colorNeutral.grayStrong.600}",
+            "type": "color"
+          },
+          "icon-hover-primary": {
+            "value": "{colorBrand.jackpotjoy.primary.600}",
+            "type": "color"
+          },
+          "icon-hover-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.600}",
+            "type": "color"
+          },
+          "icon-hover-positive": {
+            "value": "{colorAlerts.positive.600}",
+            "type": "color"
+          },
+          "icon-hover-negative": {
+            "value": "{colorAlerts.negative.600}",
+            "type": "color"
+          },
+          "icon-hover-warning": {
+            "value": "{colorAlerts.warning.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "background": {
         "background-fill-surface": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-soft.50}",
           "type": "color"
         },
@@ -1969,12 +2917,24 @@
         },
         "background-fill-elevation2": {
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.graySoft.50}",
+          "type": "color"
+        },
+        "background-fill-elevations1": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "background-fill-elevation2": {
+          "value": "{colorNeutral.white.main}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2012,11 +2972,51 @@
           },
           "component-text-disabled": {
             "value": "{color-nutral.gray-strong.400}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-text-dark": {
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-text-dark-hover": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-text-soft": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-text-gray-hover": {
+            "value": "{colorNeutral.graySoft.600}",
+            "type": "color"
+          },
+          "component-text-primary": {
+            "value": "{colorBrand.jackpotjoy.primary.500}",
+            "type": "color"
+          },
+          "component-text-primary-hover": {
+            "value": "{colorBrand.jackpotjoy.primary.600}",
+            "type": "color"
+          },
+          "component-text-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.500}",
+            "type": "color"
+          },
+          "component-text-secondary-hover": {
+            "value": "{colorBrand.jackpotjoy.secondary.600}",
+            "type": "color"
+          },
+          "component-text-disabled": {
+            "value": "{colorNeutral.grayStrong.400}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "fill": {
           "component-fill-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2066,11 +3066,63 @@
           },
           "component-fill-gray-light": {
             "value": "{color-nutral.gray-soft.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-fill-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-fill-dark-soft": {
+            "value": "{colorNeutral.graySoft.50}",
+            "type": "color"
+          },
+          "component-fill-primary": {
+            "value": "{colorBrand.jackpotjoy.primary.500}",
+            "type": "color"
+          },
+          "component-fill-primary-soft": {
+            "value": "{colorBrand.jackpotjoy.primary.50}",
+            "type": "color"
+          },
+          "component-fill-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.500}",
+            "type": "color"
+          },
+          "component-fill-secondary-soft": {
+            "value": "{colorBrand.jackpotjoy.secondary.50}",
+            "type": "color"
+          },
+          "component-fill-disabled": {
+            "value": "{colorNeutral.grayStrong.25}",
+            "type": "color"
+          },
+          "component-fill-primary-dark": {
+            "value": "{colorBrand.jackpotjoy.primary.900}",
+            "type": "color"
+          },
+          "component-fill-secondary-dark": {
+            "value": "{colorBrand.jackpotjoy.secondary.800}",
+            "type": "color"
+          },
+          "component-fill-gray": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-fill-gray-dark": {
+            "value": "{colorNeutral.graySoft.900}",
+            "type": "color"
+          },
+          "component-fill-gray-light": {
+            "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "border": {
           "component-border-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2100,11 +3152,43 @@
           },
           "component-border-disabled": {
             "value": "{color-nutral.gray-strong.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-border-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-border-dark-soft": {
+            "value": "{colorNeutral.graySoft.200}",
+            "type": "color"
+          },
+          "component-border-primary": {
+            "value": "{colorBrand.jackpotjoy.primary.500}",
+            "type": "color"
+          },
+          "component-border-primary-soft": {
+            "value": "{colorBrand.jackpotjoy.primary.100}",
+            "type": "color"
+          },
+          "component-border-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.500}",
+            "type": "color"
+          },
+          "component-border-secondary-soft": {
+            "value": "{colorBrand.jackpotjoy.secondary.100}",
+            "type": "color"
+          },
+          "component-border-disabled": {
+            "value": "{colorNeutral.grayStrong.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "component-hover-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.gray-strong.700}",
             "type": "color"
           },
@@ -2142,12 +3226,52 @@
           },
           "component-hover-secondary-soft": {
             "value": "{color-brand.jackpotjoy.secondary.50}",
+=======
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-hover-dark": {
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-hover-dark-soft": {
+            "value": "{colorNeutral.graySoft.100}",
+            "type": "color"
+          },
+          "component-hover-gray": {
+            "value": "{colorNeutral.graySoft.100}",
+            "type": "color"
+          },
+          "component-hover-primary": {
+            "value": "{colorBrand.jackpotjoy.primary.600}",
+            "type": "color"
+          },
+          "component-hover-primary-light": {
+            "value": "{colorBrand.jackpotjoy.primary.400}",
+            "type": "color"
+          },
+          "component-hover-primary-soft": {
+            "value": "{colorBrand.jackpotjoy.primary.50}",
+            "type": "color"
+          },
+          "component-hover-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.600}",
+            "type": "color"
+          },
+          "component-hover-secondary-light": {
+            "value": "{colorBrand.jackpotjoy.secondary.400}",
+            "type": "color"
+          },
+          "component-hover-secondary-soft": {
+            "value": "{colorBrand.jackpotjoy.secondary.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
+<<<<<<< HEAD
           "value": "{color-alerts.negative.500}",
           "type": "color"
         },
@@ -2181,6 +3305,41 @@
         },
         "alert-fill-new": {
           "value": "{color-nutral.gray-soft.50}",
+=======
+          "value": "{colorAlerts.negative.500}",
+          "type": "color"
+        },
+        "Error-fill-light": {
+          "value": "{colorAlerts.negative.50}",
+          "type": "color"
+        },
+        "Warning-text-dark": {
+          "value": "{colorAlerts.warning.500}",
+          "type": "color"
+        },
+        "Warning-fill-light": {
+          "value": "{colorAlerts.warning.50}",
+          "type": "color"
+        },
+        "Success-text-dark": {
+          "value": "{colorAlerts.positive.500}",
+          "type": "color"
+        },
+        "Success-fill-light": {
+          "value": "{colorAlerts.positive.50}",
+          "type": "color"
+        },
+        "Info-text-dark": {
+          "value": "{colorAlerts.info.500}",
+          "type": "color"
+        },
+        "Info-fill-light": {
+          "value": "{colorAlerts.info.50}",
+          "type": "color"
+        },
+        "alert-fill-new": {
+          "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -2188,27 +3347,133 @@
     "top nav": {
       "background": {
         "color": {
+<<<<<<< HEAD
           "value": "{color-brand.jackpotjoy.primary.500}",
+=======
+          "value": "{colorBrand.jackpotjoy.primary.500}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        }
+      }
+    },
+    "bottomNav": {
+      "background": {
+        "color": {
+          "value": "{colorBrand.jackpotjoy.primary.500}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.component.fill.component-fill-primary-soft}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.fill.component-fill-primary-soft}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        }
+      }
+    },
+    "inputfield": {
+      "placeholder-text-color": {
+        "value": "{colorStyles.component.text.component-text-soft}",
+        "type": "color"
+      },
+      "border-color-inactive": {
+        "value": "{colorStyles.component.border.component-border-dark-soft}",
+        "type": "color"
+      },
+      "border-color-active": {
+        "value": "{colorStyles.component.border.component-border-dark}",
+        "type": "color"
+      },
+      "y-padding": {
+        "value": "{padding.8px}",
+        "type": "number"
+      },
+      "x-padding": {
+        "value": "{padding.16px}",
+        "type": "number"
+      },
+      "radius": {
+        "value": "{radius.smx4x}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{numbers.48px}",
+        "type": "number"
+      }
+    },
+    "topNavCombined": {
+      "background": {
+        "color": {
+          "value": "{colorBrand.jackpotjoy.primary.500}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "icon color": {
+<<<<<<< HEAD
           "value": "{color styles.icon.default.icon-light}",
           "type": "color"
         },
         "icon color active": {
           "value": "{color styles.icon.default.icon-light}",
+=======
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        },
+        "icon color active": {
+          "value": "{colorStyles.icon.default.icon-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "text": {
         "text color": {
+<<<<<<< HEAD
           "value": "{color styles.component.text.component-text-light}",
           "type": "color"
         },
         "text color active": {
           "value": "{color styles.component.text.component-text-light}",
+=======
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        },
+        "text color active": {
+          "value": "{colorStyles.component.text.component-text-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -2310,6 +3575,7 @@
     "text styles": {
       "headings": {
         "h1": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -2325,10 +3591,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.28px}",
+            "type": "number",
+            "description": "Page Titles Only"
+          },
+          "line-height": {
+            "value": "{lineHeight.44px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h2": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -2344,10 +3628,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.24px}",
+            "type": "number",
+            "description": "Betslip Modal Title\nChild Page Titles"
+          },
+          "line-height": {
+            "value": "{lineHeight.36px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h3": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -2362,10 +3664,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.22px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.30px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h4": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -2380,10 +3699,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "Line Height": {
+            "value": "{lineHeight.28px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h5": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -2398,10 +3734,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.26px}",
+            "type": "number"
+          },
+          "Letter Spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h6": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -2416,11 +3769,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "body": {
+<<<<<<< HEAD
         "body default": {
           "Weight": {
             "value": "{font weight.Regular}",
@@ -2454,10 +3824,46 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "default": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          }
+        },
+        "large": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "body small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -2490,10 +3896,45 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -2544,10 +3985,63 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "large-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "tiny": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -2562,10 +4056,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
+<<<<<<< HEAD
       "font family": {
         "value": "{font-family.JPJ-Nunito Sans}",
         "type": "text"
@@ -2640,11 +4151,88 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+      "fontfamily": {
+        "value": "{fontFamily.JPJ-Nunito Sans}",
+        "type": "text"
+      },
+      "caption": {
+        "main": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "smallBold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "Size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "alert": {
+<<<<<<< HEAD
         "alert title": {
           "Weight": {
             "value": "{font weight.Bold}",
@@ -2678,19 +4266,62 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "title": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "mesage": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       }
     },
+<<<<<<< HEAD
     "button styles": {
       "font-weight": {
         "font-weight-allBtn": {
           "value": "{Font._Weight.Bold}",
+=======
+    "buttonStyles": {
+      "fontWeight": {
+        "bold": {
+          "value": "{fontWeight.bold}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "text"
         }
       },
       "radius": {
+<<<<<<< HEAD
         "radius-largeBtn": {
           "value": "{radius.radius-sm-4x}",
           "type": "number"
@@ -2701,10 +4332,23 @@
         },
         "radius-small": {
           "value": "{radius.radius-sm-2x}",
+=======
+        "large": {
+          "value": "{radius.smx4x}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{radius.smx3x}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{radius.smx2x}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "padding": {
+<<<<<<< HEAD
         "y-padding-largeBtn": {
           "value": "{padding.padding-12px}",
           "type": "number"
@@ -2741,10 +4385,49 @@
         },
         "font-size-small": {
           "value": "{font size.12px(0,75rem)}",
+=======
+        "y-large": {
+          "value": "{padding.12px}",
+          "type": "number"
+        },
+        "x-large": {
+          "value": "{padding.16px}",
+          "type": "number"
+        },
+        "y-medium": {
+          "value": "{padding.10px}",
+          "type": "number"
+        },
+        "y-small": {
+          "value": "{padding.6px}",
+          "type": "number"
+        },
+        "x-medium": {
+          "value": "{padding.14px}",
+          "type": "number"
+        },
+        "x-small": {
+          "value": "{padding.10px}",
+          "type": "number"
+        }
+      },
+      "fontSize": {
+        "large": {
+          "value": "{fontSize.14px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{fontSize.13px}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{fontSize.12px}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "height": {
+<<<<<<< HEAD
         "height-largeBtn": {
           "value": "{numbers.48px}",
           "type": "number"
@@ -2754,6 +4437,17 @@
           "type": "number"
         },
         "height-smallBtn": {
+=======
+        "large": {
+          "value": "{numbers.48px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{numbers.40px}",
+          "type": "number"
+        },
+        "small": {
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "value": "{numbers.32px}",
           "type": "number"
         }
@@ -2777,6 +4471,7 @@
     "color styles": {
       "typography": {
         "heading": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-strong.900}",
           "type": "color"
         },
@@ -2810,12 +4505,48 @@
         },
         "heading-primary": {
           "value": "{color-brand.botemania.primary.600}",
+=======
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "heading-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-promary": {
+          "value": "{colorBrand.botemania.primary.900}",
+          "type": "color"
+        },
+        "caption-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-soft": {
+          "value": "{colorNeutral.graySoft.500}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "body-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "body-soft": {
+          "value": "{colorNeutral.grayStrong.100}",
+          "type": "color"
+        },
+        "headingPrimary": {
+          "value": "{colorBrand.botemania.primary.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2849,11 +4580,47 @@
           },
           "icon-disabled": {
             "value": "{color-nutral.gray-strong.400}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "icon-gray": {
+            "value": "{colorNeutral.grayStrong.200}",
+            "type": "color"
+          },
+          "icon-primary": {
+            "value": "{colorBrand.botemania.primary.500}",
+            "type": "color"
+          },
+          "icon-secondary": {
+            "value": "{colorBrand.jackpotjoy.secondary.500}",
+            "type": "color"
+          },
+          "icon-positive": {
+            "value": "{colorAlerts.positive.500}",
+            "type": "color"
+          },
+          "icon-negative": {
+            "value": "{colorAlerts.negative.500}",
+            "type": "color"
+          },
+          "icon-warning": {
+            "value": "{colorAlerts.warning.500}",
+            "type": "color"
+          },
+          "icon-disabled": {
+            "value": "{colorNeutral.grayStrong.400}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "icon-hover-dark": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2879,12 +4646,40 @@
           },
           "icon-hover-warning": {
             "value": "{color-alerts.warning.600}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-hover-gray": {
+            "value": "{colorNeutral.grayStrong.600}",
+            "type": "color"
+          },
+          "icon-hover-primary": {
+            "value": "{colorBrand.botemania.primary.600}",
+            "type": "color"
+          },
+          "icon-hover-secondary": {
+            "value": "{colorBrand.botemania.secondary.600}",
+            "type": "color"
+          },
+          "icon-hover-positive": {
+            "value": "{colorAlerts.positive.600}",
+            "type": "color"
+          },
+          "icon-hover-negative": {
+            "value": "{colorAlerts.negative.600}",
+            "type": "color"
+          },
+          "icon-hover-warning": {
+            "value": "{colorAlerts.warning.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "background": {
         "background-fill-surface": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-soft.50}",
           "type": "color"
         },
@@ -2894,12 +4689,24 @@
         },
         "background-fill-elevation2": {
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.graySoft.50}",
+          "type": "color"
+        },
+        "background-fill-elevations1": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "background-fill-elevation2": {
+          "value": "{colorNeutral.white.main}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2937,11 +4744,51 @@
           },
           "component-text-disabled": {
             "value": "{color-nutral.gray-strong.400}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-text-dark": {
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-text-dark-hover": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-text-soft": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-text-gray-hover": {
+            "value": "{colorNeutral.graySoft.600}",
+            "type": "color"
+          },
+          "component-text-primary": {
+            "value": "{colorBrand.botemania.primary.500}",
+            "type": "color"
+          },
+          "component-text-primary-hover": {
+            "value": "{colorBrand.botemania.primary.600}",
+            "type": "color"
+          },
+          "component-text-secondary": {
+            "value": "{colorBrand.botemania.secondary.500}",
+            "type": "color"
+          },
+          "component-text-secondary-hover": {
+            "value": "{colorBrand.botemania.secondary.600}",
+            "type": "color"
+          },
+          "component-text-disabled": {
+            "value": "{colorNeutral.grayStrong.400}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "fill": {
           "component-fill-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -2991,11 +4838,63 @@
           },
           "component-fill-gray-light": {
             "value": "{color-nutral.gray-soft.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-fill-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-fill-dark-soft": {
+            "value": "{colorNeutral.graySoft.50}",
+            "type": "color"
+          },
+          "component-fill-primary": {
+            "value": "{colorBrand.botemania.primary.500}",
+            "type": "color"
+          },
+          "component-fill-primary-soft": {
+            "value": "{colorBrand.botemania.primary.50}",
+            "type": "color"
+          },
+          "component-fill-secondary": {
+            "value": "{colorBrand.botemania.secondary.500}",
+            "type": "color"
+          },
+          "component-fill-secondary-soft": {
+            "value": "{colorBrand.botemania.secondary.50}",
+            "type": "color"
+          },
+          "component-fill-disabled": {
+            "value": "{colorNeutral.grayStrong.25}",
+            "type": "color"
+          },
+          "component-fill-primary-dark": {
+            "value": "{colorBrand.botemania.primary.800}",
+            "type": "color"
+          },
+          "component-fill-secondary-dark": {
+            "value": "{colorBrand.botemania.secondary.800}",
+            "type": "color"
+          },
+          "component-fill-gray": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-fill-gray-dark": {
+            "value": "{colorNeutral.graySoft.900}",
+            "type": "color"
+          },
+          "component-fill-gray-light": {
+            "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "border": {
           "component-border-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -3025,11 +4924,43 @@
           },
           "component-border-disabled": {
             "value": "{color-nutral.gray-strong.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-border-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-border-dark-soft": {
+            "value": "{colorNeutral.graySoft.200}",
+            "type": "color"
+          },
+          "component-border-primary": {
+            "value": "{colorBrand.botemania.primary.500}",
+            "type": "color"
+          },
+          "component-border-primary-soft": {
+            "value": "{colorBrand.botemania.primary.100}",
+            "type": "color"
+          },
+          "component-border-secondary": {
+            "value": "{colorBrand.botemania.secondary.500}",
+            "type": "color"
+          },
+          "component-border-secondary-soft": {
+            "value": "{colorBrand.botemania.secondary.100}",
+            "type": "color"
+          },
+          "component-border-disabled": {
+            "value": "{colorNeutral.grayStrong.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "component-hover-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.gray-strong.700}",
             "type": "color"
           },
@@ -3067,12 +4998,52 @@
           },
           "component-hover-secondary-soft": {
             "value": "{color-brand.botemania.secondary.50}",
+=======
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-hover-dark": {
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-hover-dark-soft": {
+            "value": "{colorNeutral.graySoft.100}",
+            "type": "color"
+          },
+          "component-hover-gray": {
+            "value": "{colorNeutral.grayStrong.900}",
+            "type": "color"
+          },
+          "component-hover-primary": {
+            "value": "{colorBrand.botemania.primary.600}",
+            "type": "color"
+          },
+          "component-hover-primary-light": {
+            "value": "{colorBrand.botemania.primary.400}",
+            "type": "color"
+          },
+          "component-hover-primary-soft": {
+            "value": "{colorBrand.botemania.primary.50}",
+            "type": "color"
+          },
+          "component-hover-secondary": {
+            "value": "{colorBrand.botemania.secondary.600}",
+            "type": "color"
+          },
+          "component-hover-secondary-light": {
+            "value": "{colorBrand.botemania.secondary.400}",
+            "type": "color"
+          },
+          "component-hover-secondary-soft": {
+            "value": "{colorBrand.botemania.secondary.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
+<<<<<<< HEAD
           "value": "{color-alerts.negative.500}",
           "type": "color"
         },
@@ -3106,6 +5077,41 @@
         },
         "alert-fill-new": {
           "value": "{color-nutral.gray-soft.50}",
+=======
+          "value": "{colorAlerts.negative.500}",
+          "type": "color"
+        },
+        "Error-fill-light": {
+          "value": "{colorAlerts.negative.50}",
+          "type": "color"
+        },
+        "Warning-text-dark": {
+          "value": "{colorAlerts.warning.500}",
+          "type": "color"
+        },
+        "Warning-fill-light": {
+          "value": "{colorAlerts.warning.50}",
+          "type": "color"
+        },
+        "Success-text-dark": {
+          "value": "{colorAlerts.positive.500}",
+          "type": "color"
+        },
+        "Success-fill-light": {
+          "value": "{colorAlerts.positive.50}",
+          "type": "color"
+        },
+        "Info-text-dark": {
+          "value": "{colorAlerts.info.600}",
+          "type": "color"
+        },
+        "Info-fill-light": {
+          "value": "{colorAlerts.info.50}",
+          "type": "color"
+        },
+        "alert-fill-new": {
+          "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -3113,27 +5119,133 @@
     "top nav": {
       "background": {
         "color": {
+<<<<<<< HEAD
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.icon.default.icon-primary}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.icon.default.icon-primary}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.text.component-text-soft}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.text.component-text-primary}",
+          "type": "color"
+        }
+      }
+    },
+    "bottomNav": {
+      "background": {
+        "color": {
+          "value": "{colorStyles.component.fill.component-fill-primary}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.component.fill.component-fill-primary-soft}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.fill.component-fill-light}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.fill.component-fill-primary-soft}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.fill.component-fill-light}",
+          "type": "color"
+        }
+      }
+    },
+    "inputfield": {
+      "placeholder-text-color": {
+        "value": "{colorStyles.component.text.component-text-soft}",
+        "type": "color"
+      },
+      "border-color-inactive": {
+        "value": "{colorStyles.component.border.component-border-dark-soft}",
+        "type": "color"
+      },
+      "border-color-active": {
+        "value": "{colorStyles.component.border.component-border-dark}",
+        "type": "color"
+      },
+      "y-padding": {
+        "value": "{padding.8px}",
+        "type": "number"
+      },
+      "x-padding": {
+        "value": "{padding.16px}",
+        "type": "number"
+      },
+      "radius": {
+        "value": "{radius.smx4x}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{numbers.48px}",
+        "type": "number"
+      }
+    },
+    "topNavCombined": {
+      "background": {
+        "color": {
+          "value": "{colorStyles.component.fill.component-fill-primary}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "icon color": {
+<<<<<<< HEAD
           "value": "{color styles.icon.default.icon-primary}",
           "type": "color"
         },
         "icon color active": {
           "value": "{color styles.icon.default.icon-primary}",
+=======
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        },
+        "icon color active": {
+          "value": "{colorStyles.icon.default.icon-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "text": {
         "text color": {
+<<<<<<< HEAD
           "value": "{color styles.component.text.component-text-soft}",
           "type": "color"
         },
         "text color active": {
           "value": "{color styles.component.text.component-text-primary}",
+=======
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        },
+        "text color active": {
+          "value": "{colorStyles.component.text.component-text-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -3235,6 +5347,7 @@
     "text styles": {
       "headings": {
         "h1": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -3250,10 +5363,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.28px}",
+            "type": "number",
+            "description": "Page Titles Only"
+          },
+          "line-height": {
+            "value": "{lineHeight.44px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h2": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -3269,10 +5400,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.24px}",
+            "type": "number",
+            "description": "Betslip Modal Title\nChild Page Titles"
+          },
+          "line-height": {
+            "value": "{lineHeight.36px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h3": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -3287,10 +5436,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.22px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.30px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h4": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -3305,10 +5471,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "Line Height": {
+            "value": "{lineHeight.28px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h5": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -3323,10 +5506,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.26px}",
+            "type": "number"
+          },
+          "Letter Spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h6": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -3341,11 +5541,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "body": {
+<<<<<<< HEAD
         "body default": {
           "Weight": {
             "value": "{font weight.Regular}",
@@ -3379,10 +5596,46 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "default": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          }
+        },
+        "large": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "body small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -3415,10 +5668,45 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -3469,10 +5757,63 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "large-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "tiny": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -3487,10 +5828,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
+<<<<<<< HEAD
       "font family": {
         "value": "{font-family.BTM-Kumbh Sans}",
         "type": "text"
@@ -3565,11 +5923,88 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+      "fontfamily": {
+        "value": "{fontFamily.BTM-Kumbh Sans}",
+        "type": "text"
+      },
+      "caption": {
+        "main": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "smallBold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "Size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "alert": {
+<<<<<<< HEAD
         "alert title": {
           "Weight": {
             "value": "{font weight.Bold}",
@@ -3603,19 +6038,62 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "title": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "mesage": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       }
     },
+<<<<<<< HEAD
     "button styles": {
       "font-weight": {
         "font-weight-allBtn": {
           "value": "{Font._Weight.Bold}",
+=======
+    "buttonStyles": {
+      "fontWeight": {
+        "bold": {
+          "value": "{fontWeight.bold}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "text"
         }
       },
       "radius": {
+<<<<<<< HEAD
         "radius-largeBtn": {
           "value": "{radius.radius-sm-4x}",
           "type": "number"
@@ -3626,10 +6104,23 @@
         },
         "radius-small": {
           "value": "{radius.radius-sm-2x}",
+=======
+        "large": {
+          "value": "{radius.smx4x}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{radius.smx3x}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{radius.smx2x}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "padding": {
+<<<<<<< HEAD
         "y-padding-largeBtn": {
           "value": "{padding.padding-12px}",
           "type": "number"
@@ -3666,10 +6157,49 @@
         },
         "font-size-small": {
           "value": "{font size.12px(0,75rem)}",
+=======
+        "y-large": {
+          "value": "{padding.12px}",
+          "type": "number"
+        },
+        "x-large": {
+          "value": "{padding.16px}",
+          "type": "number"
+        },
+        "y-medium": {
+          "value": "{padding.10px}",
+          "type": "number"
+        },
+        "y-small": {
+          "value": "{padding.6px}",
+          "type": "number"
+        },
+        "x-medium": {
+          "value": "{padding.14px}",
+          "type": "number"
+        },
+        "x-small": {
+          "value": "{padding.10px}",
+          "type": "number"
+        }
+      },
+      "fontSize": {
+        "large": {
+          "value": "{fontSize.14px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{fontSize.13px}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{fontSize.12px}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "height": {
+<<<<<<< HEAD
         "height-largeBtn": {
           "value": "{numbers.48px}",
           "type": "number"
@@ -3679,6 +6209,17 @@
           "type": "number"
         },
         "height-smallBtn": {
+=======
+        "large": {
+          "value": "{numbers.48px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{numbers.40px}",
+          "type": "number"
+        },
+        "small": {
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "value": "{numbers.32px}",
           "type": "number"
         }
@@ -3702,6 +6243,7 @@
     "color styles": {
       "typography": {
         "heading": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-strong.900}",
           "type": "color"
         },
@@ -3735,12 +6277,48 @@
         },
         "heading-primary": {
           "value": "{color-brand.doublebubble.primary.600}",
+=======
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "heading-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-promary": {
+          "value": "{colorBrand.doublebubble.primary.900}",
+          "type": "color"
+        },
+        "caption-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "caption-soft": {
+          "value": "{colorNeutral.graySoft.500}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{colorNeutral.grayStrong.900}",
+          "type": "color"
+        },
+        "body-light": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "body-soft": {
+          "value": "{colorNeutral.grayStrong.100}",
+          "type": "color"
+        },
+        "headingPrimary": {
+          "value": "{colorBrand.doublebubble.primary.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "default": {
           "icon-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -3774,11 +6352,47 @@
           },
           "icon-disabled": {
             "value": "{color-nutral.gray-strong.400}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "icon-gray": {
+            "value": "{colorNeutral.grayStrong.200}",
+            "type": "color"
+          },
+          "icon-primary": {
+            "value": "{colorBrand.doublebubble.primary.500}",
+            "type": "color"
+          },
+          "icon-secondary": {
+            "value": "{colorBrand.doublebubble.secondary.500}",
+            "type": "color"
+          },
+          "icon-positive": {
+            "value": "{colorAlerts.positive.500}",
+            "type": "color"
+          },
+          "icon-negative": {
+            "value": "{colorAlerts.negative.500}",
+            "type": "color"
+          },
+          "icon-warning": {
+            "value": "{colorAlerts.warning.500}",
+            "type": "color"
+          },
+          "icon-disabled": {
+            "value": "{colorNeutral.grayStrong.400}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "icon-hover-dark": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -3804,12 +6418,40 @@
           },
           "icon-hover-warning": {
             "value": "{color-alerts.warning.600}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "icon-hover-gray": {
+            "value": "{colorNeutral.grayStrong.600}",
+            "type": "color"
+          },
+          "icon-hover-primary": {
+            "value": "{colorBrand.doublebubble.primary.600}",
+            "type": "color"
+          },
+          "icon-hover-secondary": {
+            "value": "{colorBrand.doublebubble.secondary.600}",
+            "type": "color"
+          },
+          "icon-hover-positive": {
+            "value": "{colorAlerts.positive.600}",
+            "type": "color"
+          },
+          "icon-hover-negative": {
+            "value": "{colorAlerts.negative.600}",
+            "type": "color"
+          },
+          "icon-hover-warning": {
+            "value": "{colorAlerts.warning.600}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "background": {
         "background-fill-surface": {
+<<<<<<< HEAD
           "value": "{color-nutral.gray-soft.50}",
           "type": "color"
         },
@@ -3819,12 +6461,24 @@
         },
         "background-fill-elevation2": {
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.graySoft.50}",
+          "type": "color"
+        },
+        "background-fill-elevations1": {
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        },
+        "background-fill-elevation2": {
+          "value": "{colorNeutral.white.main}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "component": {
         "text": {
           "component-text-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -3862,11 +6516,51 @@
           },
           "component-text-disabled": {
             "value": "{color-nutral.gray-strong.400}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-text-dark": {
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-text-dark-hover": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-text-soft": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-text-gray-hover": {
+            "value": "{colorNeutral.graySoft.600}",
+            "type": "color"
+          },
+          "component-text-primary": {
+            "value": "{colorBrand.doublebubble.primary.500}",
+            "type": "color"
+          },
+          "component-text-primary-hover": {
+            "value": "{colorBrand.doublebubble.primary.600}",
+            "type": "color"
+          },
+          "component-text-secondary": {
+            "value": "{colorBrand.doublebubble.secondary.500}",
+            "type": "color"
+          },
+          "component-text-secondary-hover": {
+            "value": "{colorBrand.doublebubble.secondary.600}",
+            "type": "color"
+          },
+          "component-text-disabled": {
+            "value": "{colorNeutral.grayStrong.400}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "fill": {
           "component-fill-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -3916,11 +6610,63 @@
           },
           "component-fill-gray-light": {
             "value": "{color-nutral.gray-soft.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-fill-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-fill-dark-soft": {
+            "value": "{colorNeutral.graySoft.50}",
+            "type": "color"
+          },
+          "component-fill-primary": {
+            "value": "{colorBrand.doublebubble.primary.500}",
+            "type": "color"
+          },
+          "component-fill-primary-soft": {
+            "value": "{colorBrand.doublebubble.primary.50}",
+            "type": "color"
+          },
+          "component-fill-secondary": {
+            "value": "{colorBrand.doublebubble.secondary.500}",
+            "type": "color"
+          },
+          "component-fill-secondary-soft": {
+            "value": "{colorBrand.doublebubble.secondary.50}",
+            "type": "color"
+          },
+          "component-fill-disabled": {
+            "value": "{colorNeutral.grayStrong.25}",
+            "type": "color"
+          },
+          "component-fill-primary-dark": {
+            "value": "{colorBrand.doublebubble.primary.800}",
+            "type": "color"
+          },
+          "component-fill-secondary-dark": {
+            "value": "{colorBrand.doublebubble.secondary.800}",
+            "type": "color"
+          },
+          "component-fill-gray": {
+            "value": "{colorNeutral.graySoft.500}",
+            "type": "color"
+          },
+          "component-fill-gray-dark": {
+            "value": "{colorNeutral.graySoft.900}",
+            "type": "color"
+          },
+          "component-fill-gray-light": {
+            "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "border": {
           "component-border-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.white.main}",
             "type": "color"
           },
@@ -3950,11 +6696,43 @@
           },
           "component-border-disabled": {
             "value": "{color-nutral.gray-strong.50}",
+=======
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-border-dark": {
+            "value": "{colorNeutral.grayStrong.800}",
+            "type": "color"
+          },
+          "component-border-dark-soft": {
+            "value": "{colorNeutral.graySoft.200}",
+            "type": "color"
+          },
+          "component-border-primary": {
+            "value": "{colorBrand.doublebubble.primary.500}",
+            "type": "color"
+          },
+          "component-border-primary-soft": {
+            "value": "{colorBrand.doublebubble.primary.100}",
+            "type": "color"
+          },
+          "component-border-secondary": {
+            "value": "{colorBrand.doublebubble.secondary.500}",
+            "type": "color"
+          },
+          "component-border-secondary-soft": {
+            "value": "{colorBrand.doublebubble.secondary.100}",
+            "type": "color"
+          },
+          "component-border-disabled": {
+            "value": "{colorNeutral.grayStrong.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         },
         "hover": {
           "component-hover-light": {
+<<<<<<< HEAD
             "value": "{color-nutral.gray-strong.700}",
             "type": "color"
           },
@@ -3992,12 +6770,52 @@
           },
           "component-hover-secondary-soft": {
             "value": "{color-brand.doublebubble.secondary.50}",
+=======
+            "value": "{colorNeutral.grayStrong.700}",
+            "type": "color"
+          },
+          "component-hover-dark": {
+            "value": "{colorNeutral.white.main}",
+            "type": "color"
+          },
+          "component-hover-dark-soft": {
+            "value": "{colorNeutral.graySoft.100}",
+            "type": "color"
+          },
+          "component-hover-gray": {
+            "value": "{colorNeutral.grayStrong.900}",
+            "type": "color"
+          },
+          "component-hover-primary": {
+            "value": "{colorBrand.doublebubble.primary.600}",
+            "type": "color"
+          },
+          "component-hover-primary-light": {
+            "value": "{colorBrand.doublebubble.primary.400}",
+            "type": "color"
+          },
+          "component-hover-primary-soft": {
+            "value": "{colorBrand.doublebubble.primary.50}",
+            "type": "color"
+          },
+          "component-hover-secondary": {
+            "value": "{colorBrand.doublebubble.secondary.600}",
+            "type": "color"
+          },
+          "component-hover-secondary-light": {
+            "value": "{colorBrand.doublebubble.secondary.400}",
+            "type": "color"
+          },
+          "component-hover-secondary-soft": {
+            "value": "{colorBrand.doublebubble.secondary.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "color"
           }
         }
       },
       "errors, warnings, alerts": {
         "Error-text-dark": {
+<<<<<<< HEAD
           "value": "{color-alerts.negative.500}",
           "type": "color"
         },
@@ -4031,6 +6849,41 @@
         },
         "alert-fill-new": {
           "value": "{color-nutral.gray-soft.50}",
+=======
+          "value": "{colorAlerts.negative.500}",
+          "type": "color"
+        },
+        "Error-fill-light": {
+          "value": "{colorAlerts.negative.50}",
+          "type": "color"
+        },
+        "Warning-text-dark": {
+          "value": "{colorAlerts.warning.500}",
+          "type": "color"
+        },
+        "Warning-fill-light": {
+          "value": "{colorAlerts.warning.50}",
+          "type": "color"
+        },
+        "Success-text-dark": {
+          "value": "{colorAlerts.positive.500}",
+          "type": "color"
+        },
+        "Success-fill-light": {
+          "value": "{colorAlerts.positive.50}",
+          "type": "color"
+        },
+        "Info-text-dark": {
+          "value": "{colorAlerts.info.500}",
+          "type": "color"
+        },
+        "Info-fill-light": {
+          "value": "{colorAlerts.info.50}",
+          "type": "color"
+        },
+        "alert-fill-new": {
+          "value": "{colorNeutral.graySoft.50}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -4038,27 +6891,133 @@
     "top nav": {
       "background": {
         "color": {
+<<<<<<< HEAD
           "value": "{color-nutral.white.main}",
+=======
+          "value": "{colorNeutral.white.main}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.icon.default.icon-secondary}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.icon.default.icon-secondary}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.text.component-text-soft}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.text.component-text-secondary}",
+          "type": "color"
+        }
+      }
+    },
+    "bottomNav": {
+      "background": {
+        "color": {
+          "value": "{colorStyles.component.fill.component-fill-secondary-soft}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default-color": {
+          "value": "{colorStyles.icon.default.icon-gray}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.fill.component-fill-secondary-dark}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default-color": {
+          "value": "{colorStyles.component.text.component-text-gray-hover}",
+          "type": "color"
+        },
+        "active-color": {
+          "value": "{colorStyles.component.fill.component-fill-secondary-dark}",
+          "type": "color"
+        }
+      }
+    },
+    "inputfield": {
+      "placeholder-text-color": {
+        "value": "{colorStyles.component.text.component-text-soft}",
+        "type": "color"
+      },
+      "border-color-inactive": {
+        "value": "{colorStyles.component.border.component-border-dark-soft}",
+        "type": "color"
+      },
+      "border-color-active": {
+        "value": "{colorStyles.component.border.component-border-dark}",
+        "type": "color"
+      },
+      "y-padding": {
+        "value": "{padding.8px}",
+        "type": "number"
+      },
+      "x-padding": {
+        "value": "{padding.16px}",
+        "type": "number"
+      },
+      "radius": {
+        "value": "{radius.smx4x}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{numbers.48px}",
+        "type": "number"
+      }
+    },
+    "topNavCombined": {
+      "background": {
+        "color": {
+          "value": "{colorStyles.component.fill.component-fill-primary}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "icon": {
         "icon color": {
+<<<<<<< HEAD
           "value": "{color styles.icon.default.icon-secondary}",
           "type": "color"
         },
         "icon color active": {
           "value": "{color styles.icon.default.icon-secondary}",
+=======
+          "value": "{colorStyles.icon.default.icon-light}",
+          "type": "color"
+        },
+        "icon color active": {
+          "value": "{colorStyles.icon.default.icon-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       },
       "text": {
         "text color": {
+<<<<<<< HEAD
           "value": "{color styles.component.text.component-text-soft}",
           "type": "color"
         },
         "text color active": {
           "value": "{color styles.component.text.component-text-secondary}",
+=======
+          "value": "{colorStyles.component.text.component-text-light}",
+          "type": "color"
+        },
+        "text color active": {
+          "value": "{colorStyles.component.text.component-text-light}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "color"
         }
       }
@@ -4160,6 +7119,7 @@
     "text styles": {
       "headings": {
         "h1": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -4175,10 +7135,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.28px}",
+            "type": "number",
+            "description": "Page Titles Only"
+          },
+          "line-height": {
+            "value": "{lineHeight.44px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h2": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -4194,10 +7172,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.24px}",
+            "type": "number",
+            "description": "Betslip Modal Title\nChild Page Titles"
+          },
+          "line-height": {
+            "value": "{lineHeight.36px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h3": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -4212,10 +7208,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.22px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.30px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h4": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -4230,10 +7243,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "Line Height": {
+            "value": "{lineHeight.28px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h5": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -4248,10 +7278,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.26px}",
+            "type": "number"
+          },
+          "Letter Spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "h6": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Bold}",
             "type": "text"
@@ -4266,11 +7313,28 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "body": {
+<<<<<<< HEAD
         "body default": {
           "Weight": {
             "value": "{font weight.Regular}",
@@ -4304,10 +7368,46 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "default": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          }
+        },
+        "large": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "body small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -4340,10 +7440,45 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "small": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -4394,10 +7529,63 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small-bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "large-bold": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.18px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.24px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         },
         "tiny": {
+<<<<<<< HEAD
           "Weight": {
             "value": "{font weight.Regular}",
             "type": "text"
@@ -4412,10 +7600,27 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.12px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
+<<<<<<< HEAD
       "font family": {
         "value": "{font-family.DBB-Outfit}",
         "type": "text"
@@ -4490,11 +7695,88 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+      "fontfamily": {
+        "value": "{fontFamily.DBB-Outfit}",
+        "type": "text"
+      },
+      "caption": {
+        "main": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "bold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.15px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.20px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "small": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "smallBold": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "Size": {
+            "value": "{fontSize.14px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       },
       "alert": {
+<<<<<<< HEAD
         "alert title": {
           "Weight": {
             "value": "{font weight.Bold}",
@@ -4528,19 +7810,62 @@
           },
           "Letter Spacing": {
             "value": "{letter spacing.0px(none)}",
+=======
+        "title": {
+          "weight": {
+            "value": "{fontWeight.bold}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+            "type": "number"
+          }
+        },
+        "mesage": {
+          "weight": {
+            "value": "{fontWeight.regular}",
+            "type": "text"
+          },
+          "font-size": {
+            "value": "{fontSize.16px}",
+            "type": "number"
+          },
+          "line-height": {
+            "value": "{lineHeight.18px}",
+            "type": "number"
+          },
+          "letter-spacing": {
+            "value": "{letterSpacing.none}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
             "type": "number"
           }
         }
       }
     },
+<<<<<<< HEAD
     "button styles": {
       "font-weight": {
         "font-weight-allBtn": {
           "value": "{Font._Weight.Bold}",
+=======
+    "buttonStyles": {
+      "fontWeight": {
+        "bold": {
+          "value": "{fontWeight.bold}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "text"
         }
       },
       "radius": {
+<<<<<<< HEAD
         "radius-largeBtn": {
           "value": "{radius.radius-infinity}",
           "type": "number"
@@ -4551,10 +7876,23 @@
         },
         "radius-small": {
           "value": "{radius.radius-infinity}",
+=======
+        "large": {
+          "value": "{radius.infinity}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{radius.infinity}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{radius.infinity}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "padding": {
+<<<<<<< HEAD
         "y-padding-largeBtn": {
           "value": "{padding.padding-12px}",
           "type": "number"
@@ -4591,10 +7929,49 @@
         },
         "font-size-small": {
           "value": "{font size.12px(0,75rem)}",
+=======
+        "y-large": {
+          "value": "{padding.12px}",
+          "type": "number"
+        },
+        "x-large": {
+          "value": "{padding.16px}",
+          "type": "number"
+        },
+        "y-medium": {
+          "value": "{padding.10px}",
+          "type": "number"
+        },
+        "y-small": {
+          "value": "{padding.6px}",
+          "type": "number"
+        },
+        "x-medium": {
+          "value": "{padding.14px}",
+          "type": "number"
+        },
+        "x-small": {
+          "value": "{padding.10px}",
+          "type": "number"
+        }
+      },
+      "fontSize": {
+        "large": {
+          "value": "{fontSize.14px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{fontSize.13px}",
+          "type": "number"
+        },
+        "small": {
+          "value": "{fontSize.12px}",
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "type": "number"
         }
       },
       "height": {
+<<<<<<< HEAD
         "height-largeBtn": {
           "value": "{numbers.48px}",
           "type": "number"
@@ -4604,6 +7981,17 @@
           "type": "number"
         },
         "height-smallBtn": {
+=======
+        "large": {
+          "value": "{numbers.48px}",
+          "type": "number"
+        },
+        "medium": {
+          "value": "{numbers.40px}",
+          "type": "number"
+        },
+        "small": {
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
           "value": "{numbers.32px}",
           "type": "number"
         }
@@ -4913,7 +8301,11 @@
         "value": "{numbers.null}",
         "type": "number"
       },
+<<<<<<< HEAD
       "stroke-xsm": {
+=======
+      "xsm": {
+>>>>>>> 9ca9cc6eee9f9bf07cefc2056ab1c31a85f48ae9
         "value": "{numbers.0․5px}",
         "type": "number"
       },
