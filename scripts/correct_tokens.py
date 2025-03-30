@@ -1,109 +1,98 @@
+import json
 import re
 from pathlib import Path
-from collections import defaultdict
-import json  # Import the json library
 
-# Input file (TypeScript tokens)
-INPUT_FILE = "tokens/btokens-new.ts"
+# Input/output paths
+INPUT_FILE = "tokens/btokens.json"
+OUTPUT_FILE = "tokens/btokens.fixed.json"
 
-# Output directory for SCSS files
-SCSS_OUTPUT_DIR = "scssbuild"
+# Define known top-level mappings
+top_level_keys = {
+    "core": ["colorNutral", "colorAlerts", "colorBrand", "numbers"],
+    "properties": [
+        "fontWeight", "lineHeight", "fontSize", "letterSpacing",
+        "paragraphSpacing", "spacing", "borderRadius", "borderWidth",
+        "opacity", "boxShadow", "fontFamily", "padding","radius"
+    ],
+    "breakpoints": ["breakpoint", "device", "columns", "margin", "gutter"]
+}
 
-# Step 1: Load .ts token file
-with open(INPUT_FILE, "r", encoding="utf-8") as f:
-    ts_content = f.read()
+# Reverse mapping for easy reference fixing
+reference_map = {}
+for group, keys in top_level_keys.items():
+    for key in keys:
+        reference_map[key] = group
 
-# Step 2: Parse export constants
-token_pattern = re.compile(r"export const (\w+)\s*=\s*(.+?);")
-parsed = {}
+def fix_references(value: str, path: list) -> str:
+    matches = re.findall(r"\{([^}]+)\}", value)
 
-for match in token_pattern.finditer(ts_content):
-    var_name, value = match.groups()
-    value = value.strip().strip("'").strip('"')
-    parsed[var_name] = value
+    for ref in matches:
+        parts = ref.split(".")
+        if len(parts) > 1:
+            base = parts[0]
 
-# Step 3: Group by top-level namespace (e.g., CORE, THEME, PROPERTIES) and breakpoints
-grouped_literals = defaultdict(lambda: defaultdict(list))
-grouped_references = defaultdict(lambda: defaultdict(list))
+            # Inject "Theme/Brand" for colorStyles if found inside a theme section
+            if base == "colorStyles" and path and "Theme/" in path[0]:
+                brand = path[0]
+                fixed = f"{brand}.{ref}"
+                value = value.replace(f"{{{ref}}}", f"{{{fixed}}}")
+            elif base in reference_map:
+                fixed = f"{reference_map[base]}.{ref}"
+                value = value.replace(f"{{{ref}}}", f"{{{fixed}}}")
 
-for var, value in parsed.items():
-    css_var = "--" + var.replace("FIGMA_VARS_", "").lower().replace("_", "-")
-    parts = var.split("_")
-    group = parts[2].lower() if len(parts) > 2 else "misc"
-    breakpoint = parts[1].lower() if len(parts) > 1 and parts[1].lower() in ("mobile", "tablet", "desktop") else "all"  # 'all' for non-breakpoint specific
+    return value
 
-    if re.match(r"^#([A-Fa-f0-9]{3,8})$", value):  # hex
-        grouped_literals[group][breakpoint].append({"name": css_var, "value": value, "type": "color"})
-    elif re.match(r"^-?\d+(\.\d+)?$", value):  # number
-        px_val = f"{value}px"
-        grouped_literals[group][breakpoint].append({"name": css_var, "value": px_val, "type": "number"})
-    elif value.startswith("FIGMA_VARS_"):
-        ref_var = "--" + value.replace("FIGMA_VARS_", "").lower().replace("_", "-")
-        grouped_references[group][breakpoint].append({"name": css_var, "value": f"var({ref_var})", "type": "reference"})
-    else:
-        grouped_literals[group][breakpoint].append({"name": css_var, "value": value, "type": "string"})  # Or determine the correct type
 
-# Step 4: Build nested SCSS map (and JSON structure)
-def safe_nested_insert(d, keys, value):
-    for key in keys[:-1]:
-        if key not in d or not isinstance(d[key], dict):
-            d[key] = {}
-        d = d[key]
-    d[keys[-1]] = value
+# Recursive token cleaner
+# Updated to handle contextual theme-based prefixing
+def fix_token_dict(obj, path=None):
+    if path is None:
+        path = []
 
-def build_nested_map_from_vars(group, breakpoint, var_list):
-    nested = {}
-    for var_data in var_list:
-        full_key = var_data["name"]
-        val = var_data["value"]
-        clean_key = full_key.replace(f"--{group}-{breakpoint}-", "", 1).replace(f"--{group}-", "", 1)
-        key_parts = [k for k in clean_key.split("-") if k]
-        safe_nested_insert(nested, key_parts, val)
-    return nested
+    if isinstance(obj, dict):
+        new_dict = {}
+        for k, v in obj.items():
+            new_path = path + [k]
+            new_dict[k] = fix_token_dict(v, new_path)
+        return new_dict
 
-def nested_dict_to_scss(d, indent=0):
-    spacing = "  " * indent
-    lines = ["("]
-    for k, v in d.items():
-        key = f'"{k}"'
-        if isinstance(v, dict):
-            nested = nested_dict_to_scss(v, indent + 1)
-            lines.append(f"{spacing}  {key}: {nested},")
+    elif isinstance(obj, list):
+        return [fix_token_dict(item, path) for item in obj]
+
+    elif isinstance(obj, str):
+        return fix_references(obj, path)
+
+    return obj
+
+# Normalize top-level keys ONLY for known groups
+def normalize_top_level_keys(data: dict) -> dict:
+    known = {"core", "properties", "breakpoints"}
+    normalized = {}
+
+    for key, value in data.items():
+        parts = key.lower().split("/")
+        if parts[-1] in known:
+            normalized[parts[-1]] = value
         else:
-            lines.append(f"{spacing}  {key}: {v},")
-    lines.append(f"{spacing})")
-    return "\n".join(lines)
+            normalized[key] = value  # preserve Theme/Brand, etc.
+    return normalized
 
-# Step 5: Write SCSS maps and JSON to files
-Path(SCSS_OUTPUT_DIR).mkdir(exist_ok=True)  # Create the scssbuild directory
-Path("tokens").mkdir(exist_ok=True)  # Ensure tokens directory exists for JSON
-output_data = {}  # For the combined JSON
+# Load, fix, normalize and save
+def process_token_file():
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-for group, breakpoint_vars in grouped_literals.items():
-    output_data[group] = {}
-    for breakpoint, var_list in breakpoint_vars.items():
-        nested = build_nested_map_from_vars(group, breakpoint, var_list)
-        scss_map = f"${group}-{breakpoint}-tokens: {nested_dict_to_scss(nested)};"
-        out_path = f"{SCSS_OUTPUT_DIR}/tokens-{group}-{breakpoint}-nested.scss"  # Save to scssbuild
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(scss_map)
-        print(f"✅ Written: {out_path}")
-        output_data[group][breakpoint] = nested
+    # Fix references and values
+    cleaned = fix_token_dict(data)
 
-for group, breakpoint_vars in grouped_references.items():
-    if group not in output_data:
-        output_data[group] = {}
-    for breakpoint, var_list in breakpoint_vars.items():
-        nested = build_nested_map_from_vars(group, breakpoint, var_list)
-        scss_map = f"${group}-{breakpoint}-refs: {nested_dict_to_scss(nested)};"
-        out_path = f"{SCSS_OUTPUT_DIR}/tokens-{group}-{breakpoint}-refs.scss"  # Save to scssbuild
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(scss_map)
-        print(f"✅ Written: {out_path}")
-        output_data[group][breakpoint] = nested
+    # Normalize top-level keys like "Core/core" → "core"
+    cleaned = normalize_top_level_keys(cleaned)
 
-# Write combined JSON
-json_out_path = "tokens/tokens.json"
-with open(json_out_path, "w", encoding="utf-8") as f:
-    json.dump(output_data, f, indent=2)
-print(f"✅ Written: {json_out_path}")
+    Path(OUTPUT_FILE).parent.mkdir(exist_ok=True)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(cleaned, f, indent=2)
+
+    print(f"✅ Token file cleaned and saved to: {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    process_token_file()

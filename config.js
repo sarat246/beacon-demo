@@ -2,7 +2,7 @@
 const path = require('path');
 
 module.exports = {
-  source: ['tokens/btokens_corrected.json'],
+  source: ['tokens/btokens.fixed.json'],
   platforms: {
     css: {
       transformGroup: 'css',
